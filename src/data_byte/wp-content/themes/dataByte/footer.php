@@ -1,7 +1,6 @@
-GOLIMAR!!
+
 <!-- FOOTER -->
   <div class="footer">
-  teste
     <div class="footer_menu">
 
       <div class="footer_menu_res">
@@ -36,7 +35,7 @@ GOLIMAR!!
         <?php endif; ?>
 
         <div class="right">
-            <p><a target="_blank" href="http://appthemes.com/themes/classipress/" title="Classified Ads Software"><?php _e('Classified Ads Software','appthemes'); ?></a> | <?php _e('Powered by','appthemes'); ?> <a target="_blank" href="http://www.wordpress.org/" title="WordPress">WordPress</a></p>
+            <p><a target="_blank" href="http://www.quebarato.com.br" title="">powered by QueBarato!</a></p>
         </div>
 
         <div class="clr"></div>

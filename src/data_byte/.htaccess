@@ -9,4 +9,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /quebarato/index.php [L]
 </IfModule>
 
+
 # END WordPress
