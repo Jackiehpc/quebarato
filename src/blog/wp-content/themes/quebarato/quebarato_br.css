@@ -1,0 +1,3461 @@
+/* INICIO PALETA DE CORES DO SITE PARA PADRONIZACAO 
+
+* Verde 1: #690
+* Verde 2: #9c3
+* Verde 3: #597e26
+* Verde 4: #a3ad0e
+* Verde 5: #e8eac3
+*
+* Azul 1: #09f
+* Azul 2: #036
+* Azul 3: #7fc1ff
+* Azul 4: #1674d9
+* Azul 5: #abd1f0
+*
+* Amarelo 1: #ffd700
+* Amarelo 2: #eaf205
+* Amarelo 3: #fafcc0
+*
+* Laranja 1: #f60
+* Laranja 2: #d74c0b
+* Laranja 3: #f7dbce
+
+/* FIM PALETA DE CORES DO SITE PARA PADRONIZACAO */
+
+/* INICIO ESCALA DE PRETO USADO NO SITE PARA PADRONIZACAO */
+.black100 {color:#000}
+.black80  {color:#333}
+.black60  {color:#666}
+.black50  {color:#7F7F7F}
+.black40  {color:#999}
+.black35  {color:#A6A6A6}
+.black30  {color:#B2B2B2}
+.black25 {color:#BBB}
+.black20  {color:#CCC}
+.black15  {color:#DADADA}
+.black10  {color:#E5E5E5}
+.black5   {color:#F2F2F2}
+/* FIM ESCALA DE PRETO USADO NO SITE PARA PADRONIZACAO */
+
+#google_ad_top, #google_ad_bottom, #google_ad_arroba, #google_ad_sky{display:none;}
+
+.img-captch{width:auto;height:auto;}
+
+.lnk_sem_estilo{color:#000;text-decoration:none;}
+
+.required_item{font-family:arial,sans;font-size:21px;font-weight:bold;color:#F00;padding-left:3px;line-height:15px;_line-height:21px;}
+
+.required, .red, .bad {color:#f00}
+
+.QBDarkGreen{color:#690;}
+
+.capitalize{text-transform:capitalize;}
+
+.numbered {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding:0 2px;
+}
+
+.numbered li {
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+
+html{background:#eee;font-family:Tahoma, Verdana, Arial, sans;font-size:11px}
+* {outline:none}
+strong, .strong {font-weight:bold}
+.normal {font-weight:normal}
+em {font-style:italic}
+label{cursor:pointer;}
+
+.photo_user{margin-bottom:20px;}
+
+
+
+/* INICIO FORMULARIOS */
+
+	/* INICIO RADIO BUTTON */
+	.radio_bt{display:block;margin:0 5px 0 0;}
+	.radio_bt{#margin:0 3px 0 0;_margin:0 3px 0 0;} /* IE6 / IE 7 */
+	.radio_label{display:block;margin:0;}
+	.radio_label{#margin:4px 0 0;_margin:4px 0 0;} /* IE6 / IE 7 */
+	/* FIM RADIO BUTTON */
+
+	/* INICIO CHECKBOX BUTTON */
+	.checkbox_bt{display:block;margin:0 5px 0 0;}
+	.checkbox_bt{#margin:0 3px 0 0;_margin:0 3px 0 0;} /* IE6 / IE 7 */
+	.checkbox_label{display:block;margin:0;}
+	.checkbox_label{#margin:4px 0 0;_margin:4px 0 0;} /* IE6 / IE 7 */
+	/* FIM CHECKBOX BUTTON */
+
+	/* INICIO INPUT TEXT E TEXTAREA */
+	.textboxG {border:1px solid #CCC;height:20px;padding:3px 5px 3px;font-family:tahoma,verdana,arial,sans;font-size:12px;font-weight:bold;color:#000;}
+	.textboxG.captcha,.textboxP.captcha{width:160px!important;text-transform:uppercase;}
+	.textboxP{border:1px solid #CCC;height:18px;padding:2px 5px 2px;font-family:tahoma,verdana,arial,sans;font-size:11px;color:#000;}
+	/* IE6 / IE 7 */.textboxG{#height:17px;#padding:6px 5px 3px;_height:17px;_padding:6px 5px 3px;}/* IE6 / IE 7 */
+	/* IE6 / IE 7 */.textboxP{#height:16px;#padding:4px 5px 2px;_height:16px;_padding:4px 5px 2px;}/* IE6 / IE 7 */
+	/* IE 8 */.textboxG{height:20px\9;padding:6px 5px 0\9;}/* IE 8 */
+	/* IE 8 */.textboxP{height:18px\9;padding:4px 5px 0\9;}/* IE 8 */
+	.textarea{border:1px solid #ccc;font-family:tahoma,verdana,arial,sans;font-size:11px;padding:3px 5px;color:#000;overflow:hidden;}
+	/* FIM INPUT TEXT E TEXTAREA */
+	
+	/* INICIO SELECTS */
+	.selectP{background-color:#FFF;font-family:tahoma,verdana,arial,sans;font-size:11px;border:1px solid #CCC;height:24px;padding:3px;color:#999;width:200px;}
+	.selectG{background-color:#FFF;font-family:tahoma,verdana,arial,sans;font-size:12px;border:1px solid #CCC;height:28px;padding:4px 3px;color:#999;width:200px;}
+	/* FIM SELECTS */
+
+	/* INICIO VALIDACAO COM ERRO */
+	.field_validation.has_error .textboxP,.field_validation.has_error .textboxG,.field_validation.has_error .textarea,.field_validation.has_error .selectP,.field_validation.has_error .selectG{border-color:#CDADA5!important;background-color:#FFECE8!important;}
+	.field_validation.has_error .radiocheck_validation{background-color:#FFECE8!important;}
+	
+	/* INICIO EDITOR DE TEXTO DESCRICAO DO ANUNCIO */
+	.field_validation.has_error .defaultSkin table.mceLayout{border-color:#CDADA5!important;}
+	.field_validation.has_error .defaultSkin table.mceLayout tr.mceFirst td{border-color:#CDADA5!important;}
+	.field_validation.has_error .defaultSkin table.mceLayout tr.mceLast td{border-color:#CDADA5!important;}
+	/* FIM EDITOR DE TEXTO DESCRICAO DO ANUNCIO */
+	
+		/* INICIO MENSAGENS DE VALIDA��O LATERAL */
+		.sidevalidation_msg{font-family:tahoma,verdana,arial,sans;font-size:11px;}
+		.sidevalidation_msg.SV_error{color:#F00;background:transparent url(http://static.quebarato.com.br/images/validation_error.png) no-repeat left 1px;padding:0 0 0 15px;margin-left:10px;}
+		/* FIM MENSAGENS DE VALIDA��O LATERAL */
+		
+	/* FIM VALIDACAO COM ERRO */
+
+/* FIM FORMULARIOS */
+
+/* INICIO CLASSES USADAS EM SCRIPTS JS */
+
+	/* INICIO CLASSE DO JS NEGRITO LABEL OPCAO SELECIONADO */
+	.bold_label{font-weight:bold;}
+	/* FIM CLASSE DO JS NEGRITO LABEL OPCAO SELECIONADO */
+	
+	/* INICIO CLASSE FOCO CAMPO DE TEXTO */
+	.textboxG.active_text, .textboxP.active_text, .selectP.active_text, .selectG.active_text, .textarea.active_text {color:#000!important; border-color:#333!important;}
+	.selectP.active_text_filled, .selectG.active_text_filled{color:#000!important;}
+	/* FIM CLASSE FOCO CAMPO DE TEXTO */
+
+/* FIM CLASSES USADOS EM SCRIPTS JS */
+
+	.hidden {display:none;}
+
+/* INICIO CAIXA ARREDONDADA DE CONTEUDO */
+
+	.mod {margin:0}
+	
+	/* INICIO CAIXA SEM BORDA E FUNDO COLORIDO */
+	.mod.simple b{background-image:url(http://static.quebarato.com.br/images/simple_corners.png);}
+	.mod.simple .inner{padding:5px;border:0;}
+	/* FIM CAIXA SEM BORDA E FUNDO COLORIDO */
+	
+	/* INICIO CAIXA COM BORDA CINZA E FUNDO BRANCO */
+	.mod.simpleBorder b{background-image:url(http://static.quebarato.com.br/images/simple_corners3.png);}
+	.mod.simpleBorder .inner{padding:15px;border:1px solid #F0EEEE;}
+	/* FIM CAIXA COM BORDA CINZA E FUNDO BRANCO */
+	
+/* FIM CAIXA ARREDONDADA DE CONTEUDO */
+
+a{color:#09f;text-decoration:none}
+a:hover {text-decoration:underline}
+
+/* INICIO LINK BLUEHOVER */
+
+	/* INICIO DEFAULT */
+	a.linkbluehover{background:transparent url(http://static.quebarato.com.br/images/bt_bluehoverleft.gif) no-repeat -1000px -1000px;color:#09f;float:left;height:20px;margin:1px 0;padding:0 0 0 2px;text-decoration:none;cursor:pointer;}
+	a.linkbluehover span{background:transparent url(http://static.quebarato.com.br/images/bt_bluehover.gif) no-repeat -1000px -1000px;margin:3px 5px 3px 4px;height:20px;float:left;cursor:pointer;}
+	a.linkbluehover span em{display:block;font-style:normal;border-bottom:1px dotted #7FCCFF;_border-bottom:1px solid #7FCCFF;cursor:pointer;}
+	/* FIM DEFAULT */
+
+	/* INICIO HOVER */
+	a.linkbluehover:hover{text-decoration:none;background-position:-1000px -1000px;color:#F60;}
+	a.linkbluehover:hover span{background:transparent url(http://static.quebarato.com.br/images/bt_bluehover.gif) no-repeat -1000px -1000px;padding:3px 5px 0 3px;margin:0 0 0 1px;border:0;}
+	a.linkbluehover:hover span em{border-bottom:1px solid #09F;}
+	/* FIM HOVER */
+
+	/* INICIO ATIVO / SELECIONADO */
+	a.linkbluehover:active, a.linkbluehover.lbh_active, a.linkbluehover.lbh_active:hover{text-decoration:none;background-position:0 0;color:#FFF;}
+	a.linkbluehover:active span, a.linkbluehover.lbh_active span, a.linkbluehover.lbh_active:hover span{background-position: right 0;padding:3px 5px 0 3px;margin:0 0 0 1px;border:0;}
+	a.linkbluehover:active span em, a.linkbluehover.lbh_active span em{border:0;cursor:default;}
+	/* FIM ATIVO / SELECIONADO */
+
+/* FIM LINK BLUEHOVER */
+
+/* INICIO ARROW BOX */
+
+.arrow_box{padding-bottom:8px;margin-bottom:10px;}
+.arrow_box.bg_ab_navy{background:transparent url(http://static.quebarato.com.br/images/darkblue_box_arrow.gif) no-repeat left bottom;}
+.arrow_box.bg_ab_green{background:transparent url(http://static.quebarato.com.br/images/green_box_arrow.gif) no-repeat left bottom;}
+.arrow_box.bg_ab_darkgreen{background:transparent url(http://static.quebarato.com.br/images/darkgreen_box_arrow.gif) no-repeat left bottom;}
+.arrow_box.bg_ab_orange{background:transparent url(http://static.quebarato.com.br/images/orange_box_arrow.gif) no-repeat left bottom;}
+
+.arrow_box .ab_content{padding:5px 10px;}
+.arrow_box.bg_ab_navy .ab_content{background-color:#036;}
+.arrow_box.bg_ab_green .ab_content{background-color:#9C3;}
+.arrow_box.bg_ab_darkgreen .ab_content{background-color:#5A7E26;}
+.arrow_box.bg_ab_orange .ab_content{background-color:#F60;}
+
+.arrow_box .ab_content .text{font-family:tahoma,verdana,arial,sans;font-size:12px;color:#FFF;font-weight:bold;text-transform:uppercase;}
+
+/* FIM ARROW BOX */
+
+.seeMore{
+	display:block;
+	color:#09F;
+	font-family:tahoma,verdana,arial,sans;
+	font-size:11px;
+	background:transparent url(http://static.quebarato.com.br/images/plus.gif) no-repeat scroll 0px 1px;
+	font-weight:bold;
+	padding-left:15px;
+}
+
+a.help_link{
+	background:transparent url(http://static.quebarato.com.br/images/help_ico.gif) no-repeat 0px 0px;
+	padding:1px 0 3px 20px;
+	*padding:2px 0 3px 20px;
+	display:block;
+}
+
+.bt_azul_enviar{
+	background:transparent url(http://static.quebarato.com.br/images/bt_azul_70x25.gif) no-repeat 0px 0px;
+	border:0;
+	width:70px;
+	height:25px;
+	color:#FFF;
+	font-size:11px;
+	padding-bottom:3px;
+	*padding-bottom:0px;
+}
+
+.bt_cancelar{
+	background-color:transparent;
+	cursor:pointer;
+	border:0px;
+	font-size:11px;
+	color:#666;
+	width:70px;
+	height:25px;
+	line-height:2em;
+	padding-bottom:3px;
+	*padding-bottom:0px;
+}
+
+.bt_cancelar:hover,.bt_cancelar.hover{
+	text-decoration:underline;
+}
+
+.textbetweenbuttons{line-height:2em;}
+
+/* INICIO BOTAO ACOES */
+
+	a.bt_actions{background:transparent url(http://static.quebarato.com.br/images/bt_action_part2.png) no-repeat right 0px;float:left;height:20px;padding:0 20px 0 0;text-decoration:none;cursor:pointer;color:#000;}
+	a.bt_actions span{background:transparent url(http://static.quebarato.com.br/images/bt_action_part1.png) no-repeat left 0px;height:18px;padding:2px 5px 0 10px;float:left;cursor:pointer;}
+	a.bt_actions span em{display:block;font-style:normal;cursor:pointer;}
+	
+	a.bt_actions:hover{background:transparent url(http://static.quebarato.com.br/images/bt_action_part2.png) no-repeat right -21px;float:left;height:20px;padding:0 20px 0 0;text-decoration:none;cursor:pointer;color:#000;}
+	a.bt_actions:hover span{background:transparent url(http://static.quebarato.com.br/images/bt_action_part1.png) no-repeat left -21px;height:18px;padding:2px 5px 0 10px;float:left;cursor:pointer;}
+	
+	a.bt_actions.bt_active, a.bt_actions.bt_active:hover{background:transparent url(http://static.quebarato.com.br/images/bt_action_part2.png) no-repeat right -42px;float:left;height:20px;padding:0 20px 0 0;text-decoration:none;cursor:pointer;color:#FFF;}
+	a.bt_actions.bt_active span, a.bt_actions.bt_active:hover span{background:transparent url(http://static.quebarato.com.br/images/bt_action_part1.png) no-repeat left -42px;height:18px;padding:2px 5px 0 10px;float:left;cursor:pointer;}
+
+	.bt_actions_wrapper{position:absolute;}
+
+	.bt_actions_wrapper .sub{
+		display:none;
+		margin-top:20px;
+		z-index:1000;
+		border:1px solid #666;
+		background-color:#F2F2F2;
+		position:absolute;
+		_left:0;
+	}
+
+/* FIM BOTAO ACOES */
+
+/* INICIO COMPARTILHE */
+
+	/* INICIO BOTAO COMPARTILHE */
+
+		a.bt_share{background:transparent url(http://static.quebarato.com.br/images/bt_share_part2.png) no-repeat right 0px;float:left;height:26px;padding:0 27px 0 0;text-decoration:none;cursor:pointer;color:#000;}
+		a.bt_share span{background:transparent url(http://static.quebarato.com.br/images/bt_share_part1.png) no-repeat left 0px;height:18px;padding:4px 0 4px 10px;float:left;cursor:pointer;}
+		a.bt_share span em{display:block;font-style:normal;cursor:pointer;}
+		
+		a.bt_share:hover, a.bt_share.share_active, a.bt_share.share_active:hover{background:transparent url(http://static.quebarato.com.br/images/bt_share_part2.png) no-repeat right -26px;float:left;height:26px;padding:0 27px 0 0;text-decoration:none;cursor:pointer;color:#FFF;}
+		a.bt_share:hover span, a.bt_share.share_active span, a.bt_share.share_active:hover span{background:transparent url(http://static.quebarato.com.br/images/bt_share_part1.png) no-repeat left -26px;height:18px;padding:4px 0 4px 10px;float:left;cursor:pointer;}
+		
+		.bt_share_wrapper{position:absolute;}
+
+		.bt_share_wrapper .sub{
+			display:none;
+			margin-top:26px;
+			z-index:1000;
+			border:1px solid #666;
+			background-color:#F2F2F2;
+			position:absolute;
+			_left:0;
+		}
+
+	/* FIM BOTAO COMPARTILHE */
+
+	.sharethis_wrapper{width:190px;margin:10px 0;}
+
+	.sharethis_wrapper .sharethisG{background:transparent url(/26924http://static.quebarato.com.br/images/sharethisG_sprite.png) no-repeat -1000px -1000px;width:25px;height:24px;float:left;text-indent:-9999px;margin-right:5px;}
+	.sharethis_wrapper .sharethisG.st_twitter{background-position:0 0px;}
+	.sharethis_wrapper .sharethisG.st_twitter:hover{background-position:0 -24px;}
+	.sharethis_wrapper .sharethisG.st_facebook{background-position:0 -48px;}
+	.sharethis_wrapper .sharethisG.st_facebook:hover{background-position:0 -72px;}
+	.sharethis_wrapper .sharethisG.st_orkut{background-position:0 -112px;}
+	.sharethis_wrapper .sharethisG.st_orkut:hover{background-position:0 -140px;}
+	.sharethis_wrapper .sharethisG.st_googlebuzz{background-position:0 -280px;}
+	.sharethis_wrapper .sharethisG.st_googlebuzz:hover{background-position:0 -308px;}
+	.sharethis_wrapper .sharethisG.st_ybookmarks{background-position:0 -168px}
+	.sharethis_wrapper .sharethisG.st_ybookmarks:hover{background-position:0 -196px}
+	.sharethis_wrapper .sharethisG.st_livefavorites{background-position:0 -224px}
+	.sharethis_wrapper .sharethisG.st_livefavorites:hover{background-position:0 -252px}
+
+	.sharethis_wrapper .sharethis_list{padding:10px 5px;}
+	.sharethis_wrapper .sharethis_list ul{width:300px;}
+	.sharethis_wrapper .sharethis_list ul li a{padding:5px 5px 5px 5px;background-color:transparent;float:left;width:90px;}
+	.sharethis_wrapper .sharethis_list ul li a:hover{background-color:#FFF;text-decoration:none;}
+	.sharethis_wrapper .sharethis_list ul li a span{height:16px;background:transparent url(http://static.quebarato.com.br/images/sharethis_sprite.gif) no-repeat -1000px -1000px;font-size:9px;font-family:tahoma,arial,verdana,sans;padding-left:20px;float:left;line-height:15px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_twitter span{background-position:0px 0px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_facebook span{background-position:0px -16px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_orkut span{background-position:0px -32px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_linkk span{background-position:0px -48px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_gostei span{background-position:0px -64px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_googlebuzz span{background-position:0px -80px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_sonico span{background-position:0px -96px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_delicious span{background-position:0px -112px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_google span{background-position:0px -128px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_dihitt span{background-position:0px -144px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_ueba span{background-position:0px -160px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_ybookmarks span{background-position:0px -176px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_digg span{background-position:0px -192px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_livefavorites span{background-position:0px -208px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_stumbleupon span{background-position:0px -224px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_blinklist span{background-position:0px -240px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_simpy span{background-position:0px -256px;}
+
+	.sharethis_wrapper .sharethis_list ul li a.share_linkedin span{background-position:0px -272px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_reddit span{background-position:0px -288px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_newsvine span{background-position:0px -304px;}
+	.sharethis_wrapper .sharethis_list ul li a.share_technorati span{background-position:0px -320px;}
+	
+	.twitter-share-button{width:100px!important}
+
+/* FIM COMPARTILHE */
+
+a.bt_anunciegratis{
+	background:transparent url(http://static.quebarato.com.br/images/bt_anunciegratis.png) no-repeat 0px 0px;
+	_background:transparent url(http://static.quebarato.com.br/images/bt_anunciegratis.jpg) no-repeat 0px 0px;
+	display:block;
+	height:51px;
+	width:219px;
+	font-weight:bold;
+	font-size:0;
+	color:transparent;
+	text-indent:-9999px;
+	margin:15px auto 10px;
+}
+
+.bt_fechar{
+	background:transparent url(http://static.quebarato.com.br/images/warning_5_close.png) no-repeat 0px 0px;
+	width:14px;
+	height:14px;
+	display:block;
+	text-indent:-99999px;
+}
+
+/* INICIO LINK FOTO E VIDEO */
+
+a.link_photo{
+	background-image:url(http://static.quebarato.com.br/images/maisfotos.gif);
+	background-repeat:no-repeat;
+	display:block;
+	height:13px;
+	padding-top:3px;
+	padding-left:25px;
+	font-size:10px;
+	color:#9c9c9c;
+	text-align:left;
+	cursor:pointer;
+}
+
+a.link_photo:hover{
+	background-position: 0 -16px;
+	color:#0099FF;
+	text-decoration:none;
+}
+
+a.link_video{
+	background-image:url(http://static.quebarato.com.br/images/maisvideos.gif);
+	background-repeat:no-repeat;
+	background-position: 0 1px;
+	display:block;
+	height:12px;
+	padding-top:3px;
+	padding-left:25px;
+	font-size:10px;
+	color:#9c9c9c;
+	text-align:left;
+	cursor:pointer;
+}
+
+a.link_video:hover{
+	background-position: 0 -14px;
+	color:#0099FF;
+	text-decoration:none;
+}
+
+/* FIM LINK FOTO E VIDEO */ 
+
+/* INICIO LINK PAGE GO TO */
+
+.go_to{
+	background:transparent url(http://static.quebarato.com.br/images/page_slider.png);
+	text-indent:-9999px;
+	cursor:pointer;
+	width:16px;
+	height:24px;
+	display:block;
+}
+
+.go_to.gt_rew{background-position:0 0;}
+.go_to.gt_rew:hover{background-position:0 -24px;}
+.go_to.gt_fow{background-position:16px 0;}
+.go_to.gt_fow:hover{background-position:16px -24px;}
+
+
+/* FIM LINK PAGE GO TO */
+
+/* INICIO ETIQUETAS */
+
+.etiqueta{
+	background:transparent url(http://static.quebarato.com.br/images/etiquetas.gif) no-repeat;
+	height:17px;
+	width:90px;
+	text-indent:-99999px;
+}
+
+	/* INICIO ANUNCIO */
+	.etiqueta.anuncio_processando{background-position: 0 0;}
+	.etiqueta.anuncio_ativo{background-position: 0 -180px;}
+	.etiqueta.anuncio_inativo{background-position:0 -216px;}
+	.etiqueta.anuncio_expirado{background-position: 0 -252px;}
+	.etiqueta.anuncio_banido{background-position: 0 -72px;}
+	.etiqueta.anuncio_duplicado{background-position: 0 -252px;}
+	/* FIM ANUNCIO */
+
+	/* INICIO PD */
+	.etiqueta.pd_emanalise{background-position: 0 -18px;}
+	.etiqueta.pd_aprovado{background-position: 0 -180px;}
+	.etiqueta.pd_reprovado{background-position: 0 -108px;}
+	.etiqueta.pd_inativo{background-position: 0 -216px;}
+	.etiqueta.pd_bloqueado{background-position: 0 -306px;}
+	/* FIM PD */
+
+	/* INICIO PEDIDOS */
+	.etiqueta.pedidos_emaberto{background-position: 0 -36px;}
+	.etiqueta.pedidos_cancelado{background-position: 0 -90px;}
+	.etiqueta.pedidos_concluido{background-position: 0 -216px;}
+
+	/* INICIO OUTROS */
+	.etiqueta.outros_ativo{background-position: 0 -144px;}
+	.etiqueta.outros_aprovado{background-position: 0 -54px;}
+	.etiqueta.outros_pendente{background-position: 0 -126px;}
+	.etiqueta.outros_spam{background-position: 0 -270px;}
+	/*FIM OUTROS*/
+
+/* FIM ETIQUETAS */
+
+/* INICIO ETIQUETAS PD */
+
+.etiquetaPD{
+	float:left;
+	background:transparent url(http://static.quebarato.com.br/images/pdstatusticket_left.gif) no-repeat;
+	padding-left:27px;
+	height:24px;
+}
+
+.etiquetaPD span{
+	float:left;
+	background:transparent url(http://static.quebarato.com.br/images/pdstatusticket.gif) no-repeat right 0;
+	font-family:tahoma,verdana,arial,sans;
+	font-weight:bold;
+	font-size:11px;
+	padding-top:5px;
+	padding-right:10px;
+	height:19px;
+	text-transform:uppercase;
+}
+
+.etiquetaPD span.status_green{color:#690;}
+.etiquetaPD span.status_orange{color:#D74C0B;}
+.etiquetaPD span.status_gray{color:#9D9D9D;}
+.etiquetaPD span.status_red{color:#F00;}
+
+
+/* FIM ETIQUETAS PD */
+
+.page {
+	width:1000px
+}
+
+.item_inner {
+	padding-left:15px;
+}
+
+.item_marginbottom2px{
+	margin-bottom:2px;
+}
+
+/* INICIO BOTOES PADRAO*/
+
+	/* INICIO BOTAO AZUL */
+
+	.bt_qb_azul{
+		font-family:tahoma, verdana, arial, sans;
+		font-size:11px;
+		text-align:center;
+		border:0;
+		color:#FFF;
+		cursor:pointer;
+	}
+	a.bt_qb_azul {padding: 0;line-height:2em;display:block;}
+	a.bt_qb_azul:hover {text-decoration:none}
+
+			/* INICIO TIPO 1 */
+			.asizetype1{
+				font-weight:bold;
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_250px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_250px.gif);
+				height:42px;
+				width:250px;
+				padding:0 5px 4px 5px;
+				font-family:tahoma, verdana, arial, sans;
+				font-size:12px;
+			}
+			a.asizetype1 {line-height:3.5em}
+			/* FIM TIPO 1 */
+
+			/* INICIO TIPO 2 */
+			.asizetype2{
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_200px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_200px.gif);
+				height:26px;
+				width:200px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 2 */
+			
+			/* INICIO TIPO 3 */
+			.asizetype3{
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_150px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_150px.gif);
+				height:26px;
+				width:150px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 3 */
+			
+			/* INICIO TIPO 4 */
+			.asizetype4{
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_100px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_100px.gif);
+				height:26px;
+				width:100px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 4 */
+			
+			/* INICIO TIPO 5 */
+			.asizetype5{
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_60px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_60px.gif);
+				height:26px;
+				width:60px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 5 */
+			
+			/* INICIO TIPO 6 */
+			.asizetype6{
+				background: transparent url(http://static.quebarato.com.br/images/bt_azul_26px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_azul_26px.gif);
+				height:23px;
+				width:26px;
+				padding:0;
+				text-indent:-9999px;
+				font-size:0px;
+			}
+			/* FIM TIPO 6 */
+
+	/* FIM BOTAO AZUL */
+
+	/* INICIO BOTAO PRATA */
+
+	.bt_qb_prata{
+		font-family:tahoma, verdana, arial, sans;
+		font-size:11px;
+		text-align:center;
+		border:0;
+		color:#636363;
+		cursor:pointer;
+		display:block;
+	}
+	a.bt_qb_prata{padding: 0;line-height:2em;display:block;}
+	a.bt_qb_prata:hover {text-decoration:none}
+
+			/* INICIO TIPO 1 */
+			.psizetype1{
+				font-weight:bold;
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_250px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_250px.gif);
+				height:42px;
+				width:250px;
+				padding:0 5px 4px 5px;
+				font-size:12px;
+			}
+			a.psizetype1 {line-height:3.5em}
+			/* FIM TIPO 1 */
+
+			/* INICIO TIPO 2 */
+			.psizetype2{
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_200px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_200px.gif);
+				height:26px;
+				width:200px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 2 */
+			
+			/* INICIO TIPO 3 */
+
+			.psizetype3{
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_150px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_150px.gif);
+				height:26px;
+				width:150px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 3 */
+			
+			/* INICIO TIPO 4 */
+			.psizetype4{
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_100px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_100px.gif);
+				height:26px;
+				width:100px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 4 */
+			
+			/* INICIO TIPO 5 */
+			.psizetype5{
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_60px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_60px.gif);
+				height:26px;
+				width:60px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 5 */
+			
+			/* INICIO TIPO 6 */
+			.psizetype6{
+				background: transparent url(http://static.quebarato.com.br/images/bt_prata_26px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_prata_26px.gif);
+				height:23px;
+				width:26px;
+				padding:0;
+				text-indent:-9999px;
+				font-size:0px;
+			}
+			/* FIM TIPO 6 */
+
+	/* FIM BOTAO PRATA */
+	
+	/* INICIO BOTAO LARANJA */
+
+	.bt_qb_laranja{
+		font-family:tahoma, verdana, arial, sans;
+		font-size:11px;
+		text-align:center;
+		border:0;
+		color:#FFF;
+		cursor:pointer;
+		display:block;
+	}
+	a.bt_qb_laranja{padding: 0;line-height:2em;display:block;}
+	a.bt_qb_laranja:hover {text-decoration:none}
+
+			/* INICIO TAMANHO 250PX */
+			.lsizetype1{
+				font-weight:bold;
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_250px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_250px.gif);
+				height:42px;
+				width:250px;
+				padding:0 5px 4px 5px;
+				font-size:12px;
+			}
+			a.lsizetype1 {line-height:3.5em;}
+			/* FIM TAMANHO 250PX */
+
+			/* INICIO TAMANHO 200PX */
+			.lsizetype2{
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_200px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_200px.gif);
+				height:26px;
+				width:200px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TAMANHO 200PX */
+			
+			/* INICIO TIPO 3 */
+			.lsizetype3{
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_150px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_150px.gif);
+				height:26px;
+				width:150px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 3 */
+			
+			/* INICIO TIPO 4 */
+			.lsizetype4{
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_100px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_100px.gif);
+				height:26px;
+				width:100px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 4 */
+			
+			/* INICIO TIPO 5 */
+			.lsizetype5{
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_60px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_60px.gif);
+				height:26px;
+				width:60px;
+				padding:0 5px 3px 5px;
+			}
+			/* FIM TIPO 5 */
+			
+			/* TIPO 6 */
+
+			.lsizetype6{
+				background: transparent url(http://static.quebarato.com.br/images/bt_laranja_26px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_laranja_26px.gif);
+				height:23px;
+				width:26px;
+				padding:0;
+				text-indent:-9999px;
+				font-size:0px;
+			}
+
+			/* FIM TIPO 6 */
+
+	/* FIM BOTAO LARANJA */
+	
+	/* INICIO FUNCOES HOVER ACTIVE E DISABLE */
+	
+		/* INICIO TIPO 1 */
+		.bt_qb_azul.action_hover_250, .bt_qb_azul.asizetype1:hover,.bt_qb_prata.action_hover_250, .bt_qb_prata.psizetype1:hover,.bt_qb_laranja.action_hover_250, .bt_qb_laranja.lsizetype1:hover{background-position:0 -42px;}
+		.bt_qb_azul.action_down_250, .bt_qb_azul.asizetype1:active,.bt_qb_prata.action_down_250, .bt_qb_prata.psizetype1:active,.bt_qb_laranja.action_down_250, .bt_qb_laranja.lsizetype1:active{background-position:0 -84px;}
+		.bt_qb_azul.disabled_250, .bt_qb_prata.disabled_250, .bt_qb_laranja.disabled_250{background-position:0 -126px;cursor:default;}
+		.bt_qb_azul.disabled_250:hover, .bt_qb_prata.disabled_250:hover, .bt_qb_laranja.disabled_250:hover{background-position:0 -126px;cursor:default;}
+		/* FIM TIPO 1 */
+		
+		/* INICIO TIPO 2, 3, 4, 5 */
+		.bt_qb_azul.asizetype2:hover, .bt_qb_azul.asizetype3:hover, .bt_qb_azul.asizetype4:hover, .bt_qb_azul.asizetype5:hover{background-position:0 -26px;}
+		.bt_qb_prata.psizetype2:hover, .bt_qb_prata.psizetype3:hover, .bt_qb_prata.psizetype4:hover, .bt_qb_prata.psizetype5:hover{background-position:0 -26px;}
+		.bt_qb_laranja.lsizetype2:hover, .bt_qb_laranja.lsizetype3:hover, .bt_qb_laranja.lsizetype4:hover, .bt_qb_laranja.lsizetype5:hover{background-position:0 -26px;}
+		.bt_qb_azul.action_hover_2345, .bt_qb_prata.action_hover_2345, .bt_qb_laranja.action_hover_2345{background-position:0 -26px;}
+		.bt_qb_azul.asizetype2:active, .bt_qb_azul.asizetype3:active, .bt_qb_azul.asizetype4:active, .bt_qb_azul.asizetype5:active{background-position:0 -26px;}
+		.bt_qb_prata.psizetype2:active, .bt_qb_prata.psizetype3:active, .bt_qb_prata.psizetype4:active, .bt_qb_prata.psizetype5:active{background-position:0 -26px;}
+		.bt_qb_laranja.lsizetype2:active, .bt_qb_laranja.lsizetype3:active, .bt_qb_laranja.lsizetype4:active, .bt_qb_laranja.lsizetype5:active{background-position:0 -26px;}
+		.bt_qb_azul.action_down_2345, .bt_qb_prata.action_down_2345, .bt_qb_laranja.action_down_2345{background-position:0 -52px;}
+		.bt_qb_azul.disabled_2345, .bt_qb_prata.disabled_2345, .bt_qb_laranja.disabled_2345{background-position:0 -78px;cursor:default;}
+		.bt_qb_azul.disabled_2345:hover, .bt_qb_prata.disabled_2345:hover, .bt_qb_laranja.disabled_2345:hover{background-position:0 -78px;cursor:default;}
+		/* FIM TIPO 2, 3, 4, 5 */
+		
+		/* INICIO TIPO 6 */
+		.bt_qb_azul.action_hover_26, .bt_qb_azul.asizetype6:hover,.bt_qb_prata.action_hover_26, .bt_qb_prata.psizetype6:hover,.bt_qb_laranja.action_hover_26, .bt_qb_laranja.lsizetype6:hover{background-position:0 -42px;}
+		.bt_qb_azul.action_down_26, .bt_qb_azul.asizetype6:active,.bt_qb_prata.action_down_26, .bt_qb_prata.psizetype6:active,.bt_qb_laranja.action_down_26, .bt_qb_laranja.lsizetype6:active{background-position:0 -84px;}
+		.bt_qb_azul.disabled_26, .bt_qb_prata.disabled_26, .bt_qb_laranja.disabled_26{background-position:0 -126px;cursor:default;}
+		.bt_qb_azul.disabled_26:hover, .bt_qb_prata.disabled_26:hover, .bt_qb_laranja.disabled_26:hover{background-position:0 -126px;cursor:default;}
+		/* FIM TIPO 6 */
+	
+	/* FIM FUNCOES HOVER ACTIVE E DISABLE */
+	
+/* FIM BOTOES PADRAO */
+
+/* INICIO BOTOES PD */
+
+	/* INICIO BOTAO PAGAMENTO DIGITAL */
+
+		.bt_qb_pd{
+			font-family:tahoma, verdana, arial, sans;
+			font-size:11px;
+			text-align:center;
+			border:0;
+			color:#FFF;
+			cursor:pointer;
+			display:block;
+		}
+		a.bt_qb_pd{padding: 0;line-height:2em;display:block;}
+		a.bt_qb_pd:hover {text-decoration:none}
+		
+			/* INICIO TAMANHO 250PX */
+			.pdsizetype1{
+				font-weight:bold;
+				background: transparent url(http://static.quebarato.com.br/images/bt_pd_250px.png);
+				_background: transparent url(http://static.quebarato.com.br/images/bt_pd_250px.gif);
+				height:42px;
+				width:250px;
+				padding:0 5px 4px 5px;
+				font-size:12px;
+			}
+			a.pdsizetype1{line-height:3.5em}
+			.pdsizetype1.action_hover_250pd, .pdsizetype1:hover{background-position:0 -42px;}
+			.pdsizetype1.action_down_250pd, .pdsizetype1:active{background-position:0 -84px;}
+			/* FIM TAMANHO 250PX */
+	
+	/* FIM BOTAO PAGAMENTO DIGITAL */
+	
+	/* INICIO BOTAO PD COMPRE JA */
+	.bt_qbpd_compreja{
+		background:transparent url(http://static.quebarato.com.br/images/pd_compreja.png) no-repeat;
+		_background:transparent url(http://static.quebarato.com.br/images/pd_compreja.gif) no-repeat;
+		height:35px;
+		width:151px;
+		display:block;
+		font-size:0;
+		color:transparent;
+		text-transform:capitalize;
+		text-indent:-9999px
+	}
+	
+	.bt_qbpd_compreja.pd_cj_action_hover, .bt_qbpd_compreja:hover{background-position:0 -37px;}
+	.bt_qbpd_compreja.pd_cj_action_down, .bt_qbpd_compreja:active{background-position:0 -74px;}
+	.bt_qbpd_compreja.pd_cj_inactive{background-position:0 -111px;cursor:default;}
+	
+	/* FIM BOTAO PD COMPRE JA */
+	
+/* FIM BOTOES PD */
+
+/* INICIO BOTOES COMPARTILHE */
+
+.bt_share{background:transparent url(..http://static.quebarato.com.br/images/share_icons.gif) -1000px -1000px no-repeat;display:block;line-height:16px;padding:0 0 0 22px;color:#666;font-size:11px;font-family:tahoma,verdana,arial,sans;}
+.bt_share.s_twitter{background-position:0px 0px;}
+.bt_share.s_facebook{background-position:0px -18px;}
+.bt_share.s_orkut{background-position:0px -36px;}
+.bt_share.s_delicious{background-position:0px -54px;}
+
+/* FIM BOTOES COMPARTILHE */
+
+/* INICIO PAGINACAO */
+
+
+.pagination{
+	margin:20px 0;
+}
+
+.pagination ul{
+	margin-top:9px;
+	*margin-top:24px;
+}
+
+.pagination ul li img{
+	padding-top:20px;
+}
+
+.pages {
+	width:485px;
+}
+
+.pagination .go_to_page{
+	width:74px;
+}
+
+.link_pagination{
+	border: 1px solid #cfcfcf;
+	background-color:#ffffff;
+	display:block;
+	color:#000;
+	font-family:tahoma, arial;
+	font-size:11px;
+	padding-top:5px;
+	text-align:center;
+	text-decoration:none;
+	width:24px;
+	height:19px;
+	margin-left:4px;
+	margin-right:4px;
+	margin-top:5px;
+	margin-bottom:4px;
+}
+
+.link_pagination:hover{
+	border:4px solid #003366;
+	color:#013366;
+	text-decoration:none;
+	width:22px;
+	height:17px;
+	padding-top:4px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:3px;
+	margin-bottom:0px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.link_pagination_active{
+	display:block;
+	text-align:center;
+	width:31px;
+	height:26px;
+	color:#FFF;
+	font-family:arial, sans;
+	background-color:#013366;
+	padding-top:6px;
+	padding-left:1px;
+	margin-top:1px;
+	margin-bottom:0px;
+	margin-left:2px;
+	margin-right:3px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.link_pagination_active:hover{
+	text-decoration:none;
+	cursor:text;
+}
+
+.link_pagination_prev{
+	width:60px;
+}
+
+.link_pagination_next{
+	width:60px;
+}
+
+.link_pagination._prev , .link_pagination._next{
+	width:60px;
+}
+
+.link_pagination._prev:hover, .link_pagination._next:hover{
+	padding-top:4px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:3px;
+	margin-bottom:3px;
+	margin-left:2px;
+	margin-right:2px;
+	width:58px;
+}
+
+/* INICIO HACK IE 6 PREVIUS & NEXT */
+
+.link_pagination_prev:hover{
+	_padding-top:4px;
+	_padding-left:0px;
+	_padding-right:0px;
+	_margin-top:3px;
+	_margin-bottom:3px;
+	_margin-left:2px;
+	_margin-right:2px;
+	_width:58px;
+}
+
+.link_pagination_next:hover{
+	_padding-top:4px;
+	_padding-left:0px;
+	_padding-right:0px;
+	_margin-top:3px;
+	_margin-bottom:3px;
+	_margin-left:2px;
+	_margin-right:2px;
+	_width:58px;
+}
+
+/* FIM HACK IE 6 PREVIUS & NEXT */
+
+.pagination form{
+	padding-top:3px;
+}
+
+.pagination label{
+	margin-bottom:3px;
+	display:block;
+	font-family:tahoma, arial, sans;
+	font-size:10px;
+	color:#5c5c5c;	
+}
+
+.pagination input{
+	vertical-align:middle;
+}
+
+.ipttxt_pagination{
+	background:transparent;
+	border:1px solid #DDDDDD;
+	color:#013366;
+	font-family:tahoma;
+	height:17px;
+	margin:0 3px;
+	padding-top:3px;
+	text-align:center;
+	font-size:11px;
+	width:40px;
+}
+
+.bt_filter_pagination{
+	background:transparent url(http://static.quebarato.com.br/images/bt_filter_pagging.png) no-repeat;
+	height:20px;
+	width:26px;
+	border:0px;
+}
+
+.transparent_class {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+/* FIM PAGINACAO*/
+
+/* INICIO MARGINS E PADDING GENERICOS */
+
+/*MARGIN BOTTOM*/
+.item_marginbottom1px{margin-bottom:1px}
+.item_marginbottom2px{margin-bottom:2px}
+.item_marginbottom3px{margin-bottom:3px}
+.item_marginbottom4px{margin-bottom:4px}
+.item_marginbottom5px{margin-bottom:5px}
+.item_marginbottom10px{margin-bottom:10px}
+.item_marginbottom15px{margin-bottom:15px}
+.item_marginbottom20px{margin-bottom:20px}
+.item_marginbottom25px{margin-bottom:25px}
+.item_marginbottom30px{margin-bottom:30px}
+.item_marginbottom35px{margin-bottom:35px}
+.item_marginbottom40px{margin-bottom:40px}
+
+/*MARGIN TOP*/
+.item_margintop1px{margin-top:1px}
+.item_margintop2px{margin-top:2px}
+.item_margintop3px{margin-top:3px}
+.item_margintop4px{margin-top:4px}
+.item_margintop5px{margin-top:5px}
+.item_margintop8px{margin-top:8px}
+.item_margintop10px{margin-top:10px}
+.item_margintop15px{margin-top:15px}
+.item_margintop20px{margin-top:20px}
+.item_margintop25px{margin-top:25px}
+.item_margintop30px{margin-top:30px}
+
+/*MARGIN TOPBOTTOM*/
+.item_margintopbottom10px{padding:10px 0}
+.item_margintopbottom20px{padding:20px 0}
+
+/*MARGIN RIGHT*/
+.item_marginright2px{margin-right:2px}
+.item_marginright5px{margin-right:5px}
+.item_marginright10px{margin-right:10px}
+.item_marginright15px{margin-right:15px}
+.item_marginright20px{margin-right:20px}
+.item_marginright25px{margin-right:25px}
+.item_marginright30px{margin-right:30px}
+.item_marginright40px{margin-right:40px}
+.item_marginright50px{margin-right:50px}
+.item_marginright60px{margin-right:60px}
+.item_marginright70px{margin-right:70px}
+.item_marginright100px{margin-right:100px}
+.item_marginright120px{margin-right:120px}
+.item_marginright130px{margin-right:130px}
+.item_marginright140px{margin-right:140px}
+.item_marginright150px{margin-right:150px}
+.item_marginright185px{margin-right:185px}
+
+/*MARGIN LEFT*/
+.item_marginleft5px{margin-left:5px}
+.item_marginleft7px{margin-left:7px}
+.item_marginleft8px{margin-left:8px}
+.item_marginleft10px{margin-left:10px}
+.item_marginleft15px{margin-left:15px}
+.item_marginleft20px{margin-left:20px}
+.item_marginleft195px{margin-left:195px}
+
+/*PADDING TOP*/
+.item_paddingtop1px{padding-top:1px}
+.item_paddingtop2px{padding-top:2px}
+.item_paddingtop3px{padding-top:3px}
+.item_paddingtop4px{padding-top:4px}
+.item_paddingtop5px{padding-top:5px}
+.item_paddingtop6px{padding-top:6px}
+.item_paddingtop7px{padding-top:7px}
+.item_paddingtop8px{padding-top:8px}
+.item_paddingtop9px{padding-top:9px}
+.item_paddingtop10px{padding-top:10px}
+
+/*PADDING TOPBOTTOM*/
+.item_paddingtopbottom10px{padding:10px 0}
+.item_paddingtopbottom20px{padding:20px 0}
+
+/*PADDING LEFT*/
+.item_paddingleft5px{padding-left:5px}
+.item_paddingleft7px{padding-left:7px}
+.item_paddingleft10px{padding-left:10px}
+.item_paddingleft15px{padding-left:15px}
+.item_paddingleft20px{padding-left:20px}
+
+/*PADDING RIGHT*/
+.item_paddingright5px{padding-right:5px}
+.item_paddingright10px{padding-right:10px}
+.item_paddingright15px{padding-right:15px}
+.item_paddingright20px{padding-right:20px}
+.item_paddingright25px{padding-right:25px}
+.item_paddingright30px{padding-right:30px}
+.item_paddingright35px{padding-right:35px}
+.item_paddingright40px{padding-right:40px}
+.item_paddingright45px{padding-right:45px}
+.item_paddingright50px{padding-right:50px}
+.item_paddingright55px{padding-right:55px}
+.item_paddingright60px{padding-right:60px}
+.item_paddingright65px{padding-right:65px}
+.item_paddingright80px{padding-right:80px}
+.item_paddingright85px{padding-right:85px}
+.item_paddingright200px{padding-right:200px}
+
+/*PADDING LEFT&RIGHT*/
+.item_paddingleftright5px{padding:0 5px}
+.item_paddingleftright10px{padding:0 10px}
+.item_paddingleftright20px{padding:0 20px}
+.item_paddingleftright30px{padding:0 30px}
+
+/*PADDING TODOS*/
+.item_padding10px{padding:10px}
+.item_padding20px{padding:20px}
+
+
+/* FIM MARGINS E PADDING GENERICOS */
+
+.list_inner_wrapper{
+	margin-top:0px;
+	padding:5px 2px 15px 10px;
+}
+
+.list_inner{
+	padding: 5px 2px 10px 10px;
+}
+
+.list_inner.last{
+	padding: 5px 2px 0px 10px;
+}
+
+.list_inner li {padding-bottom:5px;}
+.list_inner  input.list_check{vertical-align:bottom;*vertical-align:middle;*margin:-3px;}
+.list_inner  label{padding-left:5px;}
+
+
+.tl, .tr, .bl, .br {
+	height:5px;
+	width:5px
+}
+
+.bl, .br {margin-top:-5px}
+
+h1, .h1 {
+	font-family:Arial, sans;
+	font-size:27px;
+	font-weight:bold;
+	letter-spacing:-2px
+}
+h2, .h2 {
+	font-family:Arial, sans;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:0
+}
+h3, .h3 {
+	font-family:Arial, sans;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0
+}
+h4, .h4 {
+	font-size:16px;
+	letter-spacing:0
+}
+h5, .h5 {
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:0
+}
+h6, .h6 {
+	font-size:11px;
+	font-weight:bold;
+	letter-spacing:0
+}
+
+.alt_header_1 {
+	font-size:24px;
+	font-weight:bold;
+	letter-spacing:-1.5px;
+	*letter-spacing:-2px;
+}
+
+.alt_header_2 {font-family:Arial,sans;}
+
+#bd .grid180x550x180 .step_1 .rightCol{width:170px}
+#bd .grid180x550x180 .step_1 .leftCol{width:190px}
+
+.hn1 {
+	color:#9c3;
+	font-weight:normal;
+}
+
+.subtitulo {font-size:12px}
+
+.lista li {
+	padding-left:15px;
+	background:url(http://static.quebarato.com.br/images/lista_bg.png) no-repeat left 6px
+}
+
+.section {
+	margin-bottom:20px
+}
+
+.faded {
+	color:#828282;
+}
+.very_faded {
+	color:#b2b2b2;
+}
+
+.tiny {
+	font-size: 9px;
+}
+.small {
+	font-size:10px
+}
+
+.normal{
+	font-size:11px;
+}
+
+.big {
+	font-size:12px
+}
+.x-big {
+	font-size:15px
+}
+.xx-big{
+	font-size:20px	
+}
+
+.upper {
+	text-transform:uppercase
+}
+.lower {
+	text-transform:lowercase
+}
+
+.highlight {color:#690}
+.center {text-align:center !important}
+.right {text-align:right !important}
+.floatRight{float:right !important}
+
+.side_links {
+	line-height:25px;
+	color:#09f
+}
+
+.lista_valores li {
+	line-height:25px
+}
+.lista_valores label {
+	margin-right:20px
+}
+
+.block {
+	padding:5px
+}
+
+.box {
+	border:1px solid #c2c2c2
+}
+.box_faded {
+	border:1px solid #ececec
+}
+/* BOTAO ACTION */
+.botao_action {
+	background:url(http://static.quebarato.com.br/images/botao_action.png) no-repeat left;
+	color:#fff;
+	padding:12px  0 12px 17px;
+	font-weight:bold
+}
+.botao_action:hover {
+	text-decoration:none
+}
+.botao_action span {
+	background:url(http://static.quebarato.com.br/images/botao_action.png) no-repeat right;
+	padding:12px 35px 12px 0
+}
+
+/* List Heading */
+.list_heading {
+	background-image:url(http://static.quebarato.com.br/images/list_heading_bg.png);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	padding:1px 1px 9px 1px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.list_heading2 {
+	background-image:url(http://static.quebarato.com.br/images/list_heading_bg2.png);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	padding:1px 1px 9px 1px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.list_heading3 {
+	background-image:url(http://static.quebarato.com.br/images/list_heading_bg3.png);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	padding:1px 1px 9px 1px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.list_heading .inner {
+	padding:5px 10px!important;
+}
+
+.list_heading2 .inner {
+	padding:5px 10px!important;
+}
+
+.list_heading3 .inner {
+	padding:5px 10px!important;
+}
+
+.lh1 {
+	background-color:#003366;
+}
+
+.lh2 {
+	background-color:#99CC33;
+}
+
+.lh3 {
+	background-image:url(http://static.quebarato.com.br/images/list_heading3_bg.png);
+	color:#000;
+	padding:0 0 9px 0;
+}
+
+.lh5 {
+	background-image:url(http://static.quebarato.com.br/images/list_heading3_bg.png);
+	color:#000;
+	padding:0 0 9px 0;
+	background-color:#dce9fc;
+}
+
+.lh7 {
+	background-color:#FF6600;
+}
+
+.lh3 .inner {
+	border:1px solid #e3e3e3;
+	border-bottom: none;
+}
+
+.lh4{
+	font-size:12px;
+	padding-left:15px;
+}
+
+.lh4 a{
+	color:#000;
+}
+
+.lh4_right{
+	font-size:12px;
+	padding-right:10px;
+}
+
+.lh4_right a{
+	color:#000;
+}
+
+.lh4_right.lh4_right_collapsed{
+	background:transparent url(http://static.quebarato.com.br/images/arrow1.gif) no-repeat scroll right 4px;
+	color:#000;
+}
+
+.lh4_right.lh4_right_expanded{
+	background:transparent url(http://static.quebarato.com.br/images/arrow2.gif) no-repeat scroll right 3px;
+	color:#000;
+}
+
+.lh4_collapsed a.category{
+	display:block;
+	margin-bottom:5px;
+}
+
+.lh4_expanded a.category{
+	display:block;
+	margin-bottom:5px;
+}
+.menuad_on a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.lh5 {
+	background-image:url(http://static.quebarato.com.br/images/list_heading3_bg.png);
+	color:#000;
+	padding:0 0 9px 0;
+	background-color:#dce9fc;
+}
+
+a.category span{
+	font-weight:normal;
+	font-size:11px;
+}
+
+.lh1 .collapsible, .lh2 .collapsible {
+	background-position:0 -67px
+}
+
+.lh1 h6.collapsible, .lh2 h6.collapsible {
+	background-position:0px -71px
+}
+
+.lh3 h6.collapsible{
+background-position:0 -102px;
+}
+
+.lh1 .collapsed, .lh2 .collapsed {
+	background-position:0 6px
+}
+
+.lh1 h6.collapsed, .lh2 h6.collapsed {
+	background-position:0px 2px
+}
+
+.lh3 h6.collapsed{
+background-position:0 -35px;
+}
+
+/* INICIO TABS */
+.tabs {border-top:1px solid #e3e3e3;}
+
+.tabs p {font-weight:bold;line-height:12px;}
+.tabs a {color:#000}
+.tabs .tab_selected a {color:#fff}
+.tabs a:hover {text-decoration:none}
+
+.tabs li {width:150px;height:33px;text-align:center;}
+.tabs li .item{padding:7px 0;}
+
+.tabs .tab_selected {background: #1b325e url(http://static.quebarato.com.br/images/tab_selected_bg.png) no-repeat bottom center; color:#fff;}
+.tabs li.tab_selected .item {border:0; padding-left:1px; padding-right:1px}
+
+.tabs .tab_deselected {cursor:pointer;}
+.tabs .tab_deselected .item {border-left:1px solid #FFF;border-right:1px solid #FFF;}
+.tabs .tab_deselected:hover {background: #fff url(http://static.quebarato.com.br/images/tab_hover_bg.png) no-repeat bottom center;}
+.tabs .tab_deselected:hover .item {border-color:#e3e3e3;}
+
+	/* INICIO LINK TABS */
+	.link_tabs .tabs_list {
+		position:relative
+	}
+	.link_tabs .tabs_list  p {
+		padding:7px 0
+	}
+	.link_tabs .tabs_list .selected p {
+		background:url(http://static.quebarato.com.br/images/tabs_list_selected_bg.png) no-repeat bottom center;
+		font-weight:bold;
+	}
+	.link_tabs .tabs_list a {
+		padding-left:15px;
+		background:url(http://static.quebarato.com.br/images/link_tabs_sprite.png) no-repeat;
+	}
+	.link_tabs .tabs_list a:hover {text-decoration:none}
+	.link_tabs .tabs_list .favoritos {background-position:0 -28px}
+	.link_tabs .tabs_list .compartilhar {background-position:0 -67px}
+	.link_tabs .tabs_list .denunciar {background-position:0 -107px}
+	.link_tabs .tabs_list .imprimir {background-position:0 -147px}
+	.link_tabs .link_lists {
+		margin-top:-1px
+	}
+	.link_tabs .link_lists ul {
+		background-color:#f8f8f8;
+		border:1px solid #e0e0e0;
+		padding:0 10px
+	}
+	.link_tabs .link_lists li {
+		padding:5px 15px
+	}
+	/* FIM LINK TABS */
+
+	/* INICIO TABS */
+	.tabs .tab_search,
+	.tabs .tab_selected.tab_search,
+	.tabs .tab_deselected.tab_search,
+	.tabs .tab_deselected.tab_search:hover{
+		width:auto;
+		float:right;
+		text-align:left;
+		color:#000;
+		background:none;
+	}
+	.tabs .tab_search.with_result,
+	.tabs .tab_selected.tab_search.with_result,
+	.tabs .tab_deselected.tab_search.with_result,
+	.tabs .tab_deselected.tab_search.with_result:hover{
+		background:#F2F2F2 url(http://static.quebarato.com.br/images/tab_selected_bg.png) no-repeat scroll -450px bottom;
+	}
+	.tab_search.active,
+	.tab_selected.tab_search.active,
+	.tab_deselected.tab_search.active,
+	.tab_deselected.tab_search:hover.active{
+		background-image:url(http://static.quebarato.com.br/images/tab_selected_bg.png);
+		background-position:-450px bottom;
+		background-repeat:no-repeat;
+		background-color:#F2F2F2;
+		color:#000;
+	}
+	.tabs .tab_search .item,
+	.tabs .tab_selected.tab_search .item,
+	.tabs .tab_deselected.tab_search .item,
+	.tabs .tab_deselected.tab_search:hover .item{
+		padding:7px 5px 7px 10px;
+		border:0;
+	}	
+		/* INICIO SEARCH BOX */
+		.search_box,.search_box:hover{
+			border:1px solid #CCC;
+			height:19px;
+			width:146px;
+			background-color:#FFF;
+			display:block;
+			padding:1px;
+			margin:2px 5px 0;
+			cursor:pointer;
+		}
+		.search_box.sb_active,.search_box.sb_active:hover{border-color:#000;}
+		
+		.search_box .bt_search{
+			width:22px;
+			height:18px;
+			margin:1px 0;
+			background:#FFF url(http://static.quebarato.com.br/images/search_lupa.gif) no-repeat 0px 0px;
+			border:0;
+			display:block;
+			font-size:0;
+			color:transparent;
+			text-transform:capitalize;
+			text-align:right;
+			text-indent:999px;
+			cursor:pointer;
+		}
+		.search_box:hover .bt_search,.search_box .bt_search:hover,.search_box.sb_active .bt_search,.search_box.sb_active:hover .bt_search{
+			background-position: 0px -17px;
+		}
+		.search_box .text_search{
+			height:16px;
+			width:121px;
+			border:0;
+			padding:2px 0 0 3px;
+			font-size:11px;
+			font-family:tahoma,verdana,arial,sans;
+		}
+		/* FIM TAG SEARCH BOX */
+		
+	/* FIM TABS */
+	
+	/* INICIO TABS 2 */
+	.tabs2 {border:0;background:url(http://static.quebarato.com.br/images/tabs2_bg.gif) repeat-x 0 bottom;padding-left:14px}
+	.tabs2 a {color:#000}
+	.tabs2 .tab_selected a {color:#fff}
+	.tabs2 a:hover {text-decoration:none}
+	.tabs2 p{font-size:12px}
+	.tabs2 li {position:relative;top:4px;_top:3px;height:23px;background-color:#E5E5E5;text-align:center;cursor:pointer;border:1px solid #E5E5E5;border-width:1px 1px 0;padding:0 10px;margin-left:5px}
+	.tabs2 li .item{padding:7px 0;}
+	.tabs2 .tab_selected {top:0;background-color:#FFF;color:#000;border-color:#CCC;height:28px;cursor:default}
+	.tabs2 .tab_selected p{margin-top:3px}
+	.tabs2 .tab_deselected:hover, .tabs2 .tab_deselected_hover {border-color:#CCC;background:#CCC;color:#000}
+	.tabs2 .tab_deselected:hover .item, .tabs2 .tab_deselected_hover .item {border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;}
+	/* FIM TABS 2 */
+	
+	/* INICIO TABS 3 */
+	.tabs_mode3 {border-bottom:1px solid #99AABC;}
+	.tabs_mode3 .tab{background:transparent url(http://static.quebarato.com.br/images/tabs_mode3_bg.gif) no-repeat 0 -1000px;height:40px;width:190px;cursor:pointer;position:relative;margin-right:-5px;}
+	.tabs_mode3 .tab .inner{padding:3px 20px 3px 10px;}
+	.tabs_mode3 .tab .firstTXT{font-family:tahoma,verdana,arial,sans;font-size:11px;display:block;}
+	.tabs_mode3 .tab .secondTXT{font-family:arial,sans;font-size:16px;font-weight:bold;display:block;}
+	.tabs_mode3 .tab_selected .tab{border:0;color:#FFF;background-position:0 0;z-index:1000;}
+	.tabs_mode3 .tab_deselected .tab{border:0;color:#000;background-position:0 -40px;z-index:999;}
+	
+	/* FIM TABS 3 */
+	
+/* FIM TABS */
+
+
+/* Section Heading */
+.section_heading {
+	border-top:1px solid #e3e3e3;
+	border-bottom:1px solid #e3e3e3;
+}
+
+.section_heading .inner {
+	margin:1px 0;
+	padding:10px;
+}
+
+.sh1 .inner {
+	background:#F3F3F3
+}
+.sh2 .inner {
+	background:#BAD0E8
+}
+
+.sh3 .inner{
+	background:#FFFFFF;
+}
+
+/* INICIO BOX COMMENT */
+	
+	.box_comment .inner, .box_comment2 .inner {padding:10px!important;}
+	.box_comment2 .inner {min-height:30px;*height:30px}
+	
+	/* INICIO BOX TOP */
+	.box_comment {padding-top:7px;background-position:2px top;background-repeat:no-repeat;}
+	.bc1 {background-image:url(http://static.quebarato.com.br/images/box_comment_bg.png);background-color:#FFF;}
+	.bc1 .inner {background-color:#EAEDF9;}
+	.bc2 {background-image:url(http://static.quebarato.com.br/images/box_comment2_bg.png);background-color:#FFF;}
+	.bc2 .inner {background-color:#F3F5FF;}
+	/* FIM BOX TOP*/
+
+	/* INICIO BOX LEFT */
+	.box_comment2 {padding-left:7px;_padding-left:0px;background-repeat:no-repeat;background-position:-3px 0;_background-position:-2px 0;}
+	.bc3 {background-image:url(http://static.quebarato.com.br/images/box_comment3_bg.png);background-color:#FFF;}
+	.bc3 .inner {background-color:#EAEDF9}
+	.bc4 {background-image:url(http://static.quebarato.com.br/images/box_comment4_bg.png);background-color:#FFF;}
+	.bc4 .inner {background-color:#F3F5FF;}
+	/* FIM BOX LEFT */
+	
+	/* INICIO BOX TOP AGRUPADO */
+	.bc_grouped {margin-top:-8px;position:relative;background-color:transparent;}
+	.bc_grouped .inner {padding-bottom:7px;}
+	/* FIM BOX TOP AGRUPADO */
+	
+/* FIM BOX COMMENT */
+
+
+/* INICIO BOX DONE RESUME */
+
+	.box_done_resume {padding-top:7px;	background:transparent url(http://static.quebarato.com.br/images/box_done_resume_bg.png) no-repeat 3px top;}
+	.box_done_resume .inner{background-color:#EEE;padding:20px!important;}
+	.box_done_resume .inner .mod.simple .inner{padding:20px!important;font-size:12px;color:#000;background-color:#FFF;}
+	.box_done_resume .mod.simple .inner ul{margin:0 0 -2px;}
+	.box_done_resume .mod.simple .inner ul li{margin:0 0 2px;}
+	
+	/* OBS: usado no ultimo 'step' das paginas de: post e user registration */
+	
+/* FIM BOX DONE RESUME */
+
+.full {width:100%}
+
+.credits {
+	font-family:Arial, sans;
+	margin-top:10px;
+	background:url(http://static.quebarato.com.br/images/footer_locker.gif) no-repeat 0px 0px;
+	padding-left:32px
+}
+
+#bd .inner_mod{
+	padding:20px;
+	background-color:#fff;
+}
+#bd .inner_mod_pagesmall{
+	background-color:#fff;
+	padding:40px 20px 80px 30px; 
+}
+
+#bd {
+	margin:0;
+	overflow:hidden;
+	_overflow:visible;_zoom:1;
+}
+
+.busca .text_busca {
+	width:261px;
+	font-family:Arial;
+	font-size:16px;
+	margin:1px 0;
+}
+
+a.rss_link{
+	font-size:0px;
+	text-indent:-9999px;
+	background:url(http://static.quebarato.com.br/images/rss2_ico.gif) no-repeat 0px 0px;
+	background-color:transparent;
+	width:16px;
+	height:16px;
+	float:right;
+}
+
+a.rss_link:hover{text-decoration:none;}
+
+/*busca*/
+.text_search{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #597e26;
+	font-weight:bold;
+	height:13px;
+}
+.busca{
+	background:#fff url(http://www.quebarato.com.br/images/search_bg.png) no-repeat;
+	width:464px;
+	height:22px;
+	padding:4px 2px 5px 8px;
+	overflow:hidden;
+	margin-top:6px;
+}
+.busca:hover .button_busca{
+	background-position: 0 -28px;
+}
+.busca:hover .button_busca:hover{
+	background-position: 0 -53px;	
+}
+.busca:hover .button_busca:active{
+	background-position: 0 -78px;
+	outline:none;
+}
+
+#ft .busca{
+	margin: 0 100px 0 58px;
+}
+
+busca * {vertical-align:middle;}
+
+.busca input {
+	border:0;
+	padding:1px;
+	outline:none;
+}
+
+.text_busca_active{
+	width:290px;
+	font-family:Tahoma, Arial, Sans;
+	font-size:12px;
+	color:#000;
+	border-color:#fff!important;
+}
+
+.select_busca {
+	width:165px;
+	margin-left:5px;
+}
+
+.busca a.busca_lista_categorias {
+	color:#999;
+	cursor:pointer;
+	display:block;
+	padding-top:3px;
+	width:150px;
+	padding-right:15px;
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+	position:relative;
+	margin-top:3px;
+}
+
+.busca a.busca_lista_categorias b {
+	position:absolute;
+	right:0;
+	top:0;
+	width:10px;
+	height:18px;
+	background:#fff url(http://static.quebarato.com.br/images/arrowblackgray2.gif) no-repeat center -10px;
+}
+
+.busca a.busca_lista_categorias:hover, .busca a.busca_lista_categorias_on {
+	color:#000;
+	text-decoration:none;
+}
+
+.busca a.busca_lista_categorias:hover b, .busca a.busca_lista_categorias_on b {
+	background:url(http://static.quebarato.com.br/images/arrowblackgray2.gif) no-repeat center 6px;
+}
+
+a.busca_lista_categorias span {
+	border:none;
+	vertical-align:baseline;
+}
+
+.button_busca {
+	margin:0 0 0 5px;
+	background:url(http://static.quebarato.com.br/images/lupa.png) no-repeat;
+	width:30px;
+	height:25px;
+	cursor:pointer;
+	background-position: 0 -3px;
+}
+
+.button_busca.hover, .button_busca:hover {background-position: 0 -53px;}
+.button_busca:active{background-position: 0 -78px;}
+
+.category_menu {
+	position:absolute;
+	width:145px;
+	border:1px solid #eee;
+	border-top:none;
+	margin-top:3px;
+	margin-left:23px;
+	background:#fff url(http://static.quebarato.com.br/images/category_search_filter-bg.png) no-repeat left top;
+	padding-top:9px;
+	z-index:1;
+	cursor:pointer;
+	display:none;
+}
+
+.category_menu li {
+	padding:5px 10px;
+	border:none
+}
+
+.category_menu li:hover {
+	background-color: #0099FF;
+	color:#fff;
+	cursor:pointer
+}
+
+.category_menu strong {border:none}
+
+.category_menu .prefs {
+	background: #B2B2B2 url(http://static.quebarato.com.br/images/cog.png) no-repeat scroll 10px 7px;
+	padding-left:25px;
+	color:#fff;
+	cursor:pointer
+}
+
+.category_menu .prefs:hover {background-color:#7f7f7f}
+
+/* INICIO COLLAPSED ELEMENTES */
+
+	/* INICIO COLLAPSED SINAL MAIS OU MENOS */
+	.collapsibleML .heading{
+		background:transparent url(http://static.quebarato.com.br/images/collapse_controller_sprite.png) no-repeat 0 -99px;
+		color:#FFF;
+		padding-left:17px;
+		cursor:pointer;
+		font-weight:bold;
+		font-size:12px;
+	}
+	.collapsibleML .heading a{color:#FFF;}
+	.collapsibleML.collapsed {background-position:0 -32px;}
+	/* FIM COLLAPSED SINAL MAIS OU MENOS */
+	
+	/* INICIO COLLAPSED ARROWS */
+	.collapsibleARW .heading{
+		background:transparent url(http://static.quebarato.com.br/images/arrow_black.gif) no-repeat 1px -41px;
+		color:#000;
+		padding-left:15px;
+		cursor:pointer;
+		font-weight:bold;
+		font-size:12px;
+	}
+	.collapsibleARW .heading a{color:#000;}
+	.collapsibleARW.collapsed .heading{background-position: 2px 4px;}
+	/* FIM COLLAPSED ARROWS */
+	
+
+/* FIM COLLAPSED ELEMENTS */
+
+
+/*block over*/
+.block_over {
+	background-color:#f5f5f5;
+	padding:8px 8px 0 8px
+}
+#bd .block_over .inner_mod {
+	padding:10px
+}
+.block_over .simple b {background-image:url(http://static.quebarato.com.br/images/simple_corners2.png)}
+.block_over  .section {
+	margin-bottom:15px
+}
+
+/*SCROLLER*/
+
+.scroller {position:relative;}
+
+.scroller .scrl_content {overflow:hidden;}
+
+.scroller .controller {display:block;position:absolute;}
+.scroller .controller span {border:1px solid #c2c2c2;display:block;}
+.scroller .controller:hover span {background-color: #09F;}
+
+.scroller .off span {background-color:#F0F0F0!important;}
+
+.scrl_horizontal {padding: 0 12px;}
+.scrl_vertical {padding: 14px 0;#padding:15px 0;_padding:15px 0;}
+
+.scrl_vertical .controller {width:100%;left:0;}
+.scrl_vertical .controller span {background:url(http://static.quebarato.com.br/images/scroller_vertical_controller_sprite.gif) no-repeat;height: 12px;}
+.scroller .ctrl_top {top:0;}
+.scroller .ctrl_top span {background-position:center 2px}
+.scroller .ctrl_top:hover span {background-position: center -48px;}
+.scroller .offtop span{background-position:center -198px !important;}
+.scroller .ctrl_bottom {bottom: 0;}
+.scroller .ctrl_bottom span {background-position:center -98px}
+.scroller .ctrl_bottom:hover span {background-position: center -148px;}
+.scroller .offbottom span{background-position:center -248px !important;}
+
+.scrl_horizontal .controller {height:100%;top:0;width:12px;}
+.scrl_horizontal .controller span {background:#fff url(http://static.quebarato.com.br/images/scroller_horizontal_controller_sprite.gif) no-repeat;height:100%;}
+.scroller .ctrl_left {left:0;}
+.scroller .ctrl_left span {background-position:1px center}
+.scroller .ctrl_left:hover span {background-position: -49px;}
+.scroller .offleft span{background-position: -199px center !important;}
+.scroller .ctrl_right {right:0;}
+.scroller .ctrl_right span {background-position:-99px center}
+.scroller .ctrl_right:hover span {background-position: -149px;}
+.scroller .offright span{background-position: -249px center !important;}
+
+/* 	INICIO BREADCRUMB STEPS */
+
+.breadcrumb_steps {
+	color:#e5e5e5;
+	font-size:20px;
+	font-family: arial, sans;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.breadcrumb_steps strong {
+	font-size:50px;
+	display:block;
+	line-height:38px;
+}
+.breadcrumb_steps .unit {
+	text-align:center;
+}
+.breadcrumb_steps .step {
+	background: url(http://static.quebarato.com.br/images/breadcrumb_steps-bg.png) no-repeat 35px 15px;
+	padding-left:140px;
+}
+.breadcrumb_steps .ativo {
+	color:#89bffd;
+	background-position:40px -84px;
+}
+
+.breadcrumb_steps .ativo a{
+	display:block;
+	width:90px;
+	color:#89bffd;
+	text-decoration:none;
+}
+
+.breadcrumb_steps .completed {
+	text-decoration:none;
+	color:#999;
+}
+
+.breadcrumb_steps .completed a{
+	display:block;
+	width:90px;
+	color:#999;
+	text-decoration:none;
+}
+
+.breadcrumb_steps .step.completed {
+	text-decoration:none;
+	color:#999;
+	background-position:40px -84px;
+}
+
+.breadcrumb_steps a:hover{
+	text-decoration:none;
+}
+/* FIM BREADCRUMB STEPS */
+
+.emptyCol {height:1px;}
+
+.emptyRow {width:1px;}
+
+.separator {background: url(http://static.quebarato.com.br/images/separator-bg.png) repeat-x bottom;padding-bottom:10px;}
+
+/* INICIO HINT */
+
+.hint {color:#999;padding-top:1px;}
+.leftCol .hint{font-size:9px;}
+.main .hint{font-size:10px;}
+.main .hint.second{padding-top:0;}
+/* FIM HINT */
+
+
+
+.strength_meter {
+	width: 83px;
+	height: 8px;
+	background:url(http://static.quebarato.com.br/images/strength_meter.png) no-repeat 0px 0px;
+	margin-top:3px
+}
+
+.strength_meter_very_weak {background-position: 0 -16px}
+.strength_meter_weak {background-position: 0 -32px}
+.strength_meter_regular {background-position: 0 -48px}
+.strength_meter_strong {background-position: 0 -64px}
+.strength_meter_very_strong {background-position: 0 -80px}
+
+/* INICIO ESTRELINHAS DE REPUTACAO */
+
+.reputation{width:70px;height:13px;}
+.reputation.stars{background:url(http://static.quebarato.com.br/images/estrelinhas.gif) no-repeat -1000px -1000px;}
+.reputation.stars.qtd00{background-position:-7px -6px;}
+.reputation.stars.qtd05{background-position:-7px -27px;}
+.reputation.stars.qtd10{background-position:-7px -49px;}
+.reputation.stars.qtd15{background-position:-7px -72px;}
+.reputation.stars.qtd20{background-position:-7px -95px;}
+.reputation.stars.qtd25{background-position:-7px -118px;}
+.reputation.stars.qtd30{background-position:-7px -141px;}
+.reputation.stars.qtd35{background-position:-7px -165px;}
+.reputation.stars.qtd40{background-position:-7px -192px;}
+.reputation.stars.qtd45{background-position:-7px -219px;}
+.reputation.stars.qtd50{background-position:-7px -245px;}
+
+/* FIM ESTRELINHAS DE REPUTACAO */
+
+.txta_sendmsg {
+	border:0 none;
+	color:#C1C1C1;
+	font-family:tahoma,arial,sans;
+	font-size:11px;
+	height:17px;
+	overflow:hidden;
+	padding-top:2px;
+	width:100%;
+}
+
+
+
+/* INICIO DYNABOX */
+
+.DB_item {font-family:tahoma,verdana,arial,sans;font-size:12px;color:#690;}
+.DB_item a{color:#690;text-decoration:none;}
+.DB_item a:hover{border-bottom:1px dotted #690;text-decoration:none;}
+
+.DB_box{width:345px;padding-bottom:5px;background:#FFF url(http://static.quebarato.com.br/images/dynabox_shadow_h.png) no-repeat bottom right;font-size:11px;}
+
+.DB_box .shadowRight{background:#FFF url(http://static.quebarato.com.br/images/dynabox_shadow_v.png) no-repeat top right;padding-right:5px;}
+
+.DB_box .DB_inner{border:1px solid #d6d6d6;padding:0;}
+
+.DB_box .DB_inner .content{margin:0 10px;padding:10px 0;}
+
+.DB_box .DB_inner .content .has_no_offer .title{font-size:14px;font-family:arial,sans;font-weight:bold;text-align:center;margin-bottom:10px;}
+
+.DB_box .DB_inner .content .has_offer .product{border-right:1px solid #9c3;padding:5px 10px 5px 0;width:100px;}
+.DB_box .DB_inner .content .has_offer .product .photo{margin-bottom:5px;}
+.DB_box .DB_inner .content .has_offer .product .reputation{text-align:center;margin:0 auto;}
+.DB_box .DB_inner .content .has_offer .product .description{text-align:center;border:0;padding:0 10px;margin-top:5px;}
+.DB_box .DB_inner .content .has_offer .product .description p{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#000;}
+.DB_box .DB_inner .content .has_offer .store_info{padding:0px 0 5px 10px;_padding:5px 0 5px 0;}
+.DB_box .DB_inner .content .has_offer .store_info ul{margin-bottom:-10px;_margin-left:-5px;}
+.DB_box .DB_inner .content .has_offer .store_info ul li{list-style-type:none;margin-bottom:10px;}
+.DB_box .DB_inner .content .has_offer .store_info .logo{margin-top:5px;_margin-top:0;}
+.DB_box .DB_inner .content .has_offer .store_info .payment{margin-left:5px;_margin-top:-5px;}
+.DB_box .DB_inner .content .has_offer .store_info .payment .price{color:#09F;font-family:georgia,tahoma,verdana,arial,sans;font-weight:bold;}
+.DB_box .DB_inner .content .has_offer .store_info .payment .price .currency{font-size:11px;}
+.DB_box .DB_inner .content .has_offer .store_info .payment .price .value{font-size:17px;}
+.DB_box .DB_inner .content .has_offer .store_info .instalment{font-size:12px;}
+
+.DB_box .DB_inner .footer{background:transparent url(http://static.quebarato.com.br/images/separator-bg.png) repeat-x left top;margin: 0 10px;padding:10px 5px;}
+
+/* FIM DYNABOX */
+
+/* INICIO PUBLICIDADE */
+
+.publicidade_v {
+	border:0;
+	text-align:center;
+	margin:10px 0;
+	padding:20px 0 0;
+	background:url(http://static.quebarato.com.br/images/publicidade_h.png) no-repeat center 7px;
+	display:block;
+}
+.publicidade_vb {
+	border:0;
+	text-align:center;
+	margin:0 0 10px 0;
+	padding:0 0 20px;
+	background:url(http://static.quebarato.com.br/images/publicidade_h.png) no-repeat center bottom;
+	display:block;
+}
+.publicidade_h {
+	border:0px;
+	margin:10px auto;
+	text-align:center;
+	background:url(http://static.quebarato.com.br/images/publicidade_v.png) no-repeat 0 center;
+	padding-left:10px;
+	width:728px;
+	display:block;
+}
+
+.warning_box {
+	background: #FAFCC0;
+	border: 1px solid #EBF20C;
+	padding:10px 20px;
+	margin-top:20px
+}
+
+/* INICIO LIGHT BOX */
+
+.boxy-wrapper #lightbox{width:550px}
+
+/* Boxy */
+.boxy-wrapper {position:absolute;}
+.boxy-wrapper.fixed {position:fixed;}
+.boxy-wrapper.liquid {width:auto}
+#lightbox .bubble {margin:0 0 15px}
+#lightbox .lb_hd {margin:0 0 15px;position:relative;}
+
+/* Head */
+.boxy-wrapper .head .inner {background-color: #8CC63E;padding:10px 30px 10px 20px}
+.boxy-wrapper .head .close_lightbox {display:block;position:absolute;right:10px;top:11px;}
+
+.boxy-wrapper .lb_hd .arrow_box .ab_content{padding:10px 30px 10px 20px}
+.boxy-wrapper .lb_hd .arrow_box .ab_content .text{font-family:Tahoma,Verdana,Arial,sans;font-size:12px;font-weight:bold;text-transform:uppercase;}
+.boxy-wrapper .lb_hd .arrow_box .ab_content .text span{color:#669900;font-style:normal;}
+.boxy-wrapper .lb_hd .arrow_box .ab_content .close_lightbox {display:block;position:absolute;right:10px;top:11px;}
+
+/* General Settings */
+.boxy-wrapper h1 {color:#FFFFFF;font-family:Tahoma,Verdana,Arial,sans;font-size:12px;font-weight:bold;letter-spacing:0;text-transform:uppercase;}
+.boxy-wrapper h1 em {font-style: normal; color:#690}
+.boxy-wrapper .liquid {width:auto}
+.boxy-wrapper  b b {border-top-color:#8cc63e!important}
+.boxy-wrapper .body {padding:0 20px 0;}
+.boxy-wrapper .foot {padding:10px 20px;background-color:#eee}
+.boxy-wrapper .spacer_left {padding-left:30px;}
+.boxy-wrapper .spacer_right {padding-right:30px;}
+.boxy-wrapper .border_right {border-right:1px solid #ccc;}
+.boxy-wrapper .sizeCustomLogin {width:283px;}
+.boxy-wrapper .forgot_password{font-size:10px;padding-top:2px;*padding-top:5px;display:block;}
+.boxy-wrapper .link_block {margin-top:5px;margin-bottom:5px;}
+.boxy-wrapper .action {background: url(http://static.quebarato.com.br/images/botao_acao.png) no-repeat;border:none;margin:0;padding:0;color:#fff;width: 99px;padding-right:1px;height:26px;padding-bottom:2px;cursor:pointer;}
+
+/* INICIO TEXTAREA COM CONTEUDO */
+.inner_label_container{position:relative;}
+.inner_label_container label {padding:9px 8px;	position:absolute;cursor:text;z-index:1;}
+.inner_label_container textarea{position:relative;}
+.inner_label_container textarea.focus, .inner_label_container input.focus{z-index:2;}
+/* FIM TEXTAREA COM CONTEUDO */
+
+/* Modal */
+.boxy-modal-blackout { position: absolute; background-color: black; left: 0; top: 0;}
+
+/* Border */
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .boxy-top-left,
+.boxy-wrapper .boxy-top-right,
+.boxy-wrapper .boxy-bottom-right,
+.boxy-wrapper .boxy-bottom-left { width: 10px; height: 10px; padding: 0 }
+.boxy-wrapper .boxy-top-left { background: url('http://static.quebarato.com.br/images/boxy-nw.png'); }
+.boxy-wrapper .boxy-top-right { background: url('http://static.quebarato.com.br/images/boxy-ne.png'); }
+.boxy-wrapper .boxy-bottom-right { background: url('http://static.quebarato.com.br/images/boxy-se.png'); }
+.boxy-wrapper .boxy-bottom-left { background: url('http://static.quebarato.com.br/images/boxy-sw.png'); }
+
+/* IE6+7 hacks for the border. IE7 should support this natively but fails in conjuction with modal blackout bg. */
+/* NB: these must be absolute paths or URLs to your images */
+.boxy-wrapper .boxy-top-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.quebarato.com.br/images/boxy-nw.png'); }
+.boxy-wrapper .boxy-top-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.quebarato.com.br/images/boxy-ne.png'); }
+.boxy-wrapper .boxy-bottom-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.quebarato.com.br/images/boxy-se.png'); }
+.boxy-wrapper .boxy-bottom-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.quebarato.com.br/images/boxy-sw.png'); }
+.boxy-wrapper .boxy-top,
+.boxy-wrapper .boxy-bottom { height: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+.boxy-wrapper .boxy-left,
+.boxy-wrapper .boxy-right { width: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+
+/* Title bar */
+.boxy-wrapper .boxy-title-bar { background-color: black; padding: 6px; position: relative; }
+.boxy-wrapper .boxy-title-bar.dragging { cursor: move; }
+.boxy-wrapper .boxy-title-bar h2 { font-size: 12px; color: white; line-height: 1; margin: 0; padding: 0; font-weight: normal; }
+.boxy-wrapper .boxy-title-bar .boxy-close { color: white; position: absolute; top: 6px; right: 6px; font-size: 90%; line-height: 1; }
+	
+/* Content Region */
+.boxy-inner { background-color: white; padding: 0 }
+
+/* Question Boxes */
+.boxy-wrapper .boxy-question { width: 350px; min-height: 80px; }
+.boxy-wrapper .boxy-answers { text-align: right; }
+
+	/* INICIO LIGHTBOX DEFINE LOCALE */
+	#lightbox .LB_definelocale .from{padding:5px 10px 0 0;}
+	#lightbox .LB_definelocale .textboxP{width:350px;}
+	/* FIM LIGHTBOX DEFINE LOCALE */
+
+	/* INICIO LIGHTBOX AVATAR */
+	#lightbox .LB_avatar #bt_file{float:left}
+	#lightbox .LB_avatar #loading_wrapper{float:left;padding-left:12px}
+	#lightbox .LB_avatar #txt_filename{float:left;width:225px;height:16px;background-color:#FFF;border:0 none;padding:4px 0 0 0;margin:0 5px 0 0;border:1px solid #ccc;	}
+	#lightbox .LB_avatar .alpha{opacity:.50;filter:alpha(opacity=50)}
+	/* FIM LIGHTBOX AVATAR */
+	
+	/* INICIO LIGHTBOX SEARCH LOCALE FILTER */
+	#lightbox .LB_searchlocalefilter .body{padding-right:0px;}
+	#lightbox .LB_searchlocalefilter .lb_hd {margin:0 0 10px;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter{font-family:tahoma,verdana,arial,sans;font-size:11px;margin-bottom:10px;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .left_side{width:120px;margin-right:5px;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .left_side .filter_label{color:#000;font-weight:bold;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .right_side{width:395px;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .right_side span{color:#CDCDCD;padding-right:5px;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .right_side span a{color:#999;text-decoration:underline;}
+	#lightbox .LB_searchlocalefilter .filter_by_letter .right_side span a:hover{color:#000;}
+	
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter{margin:10px 0;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .left_side{width:25px;margin-right:10px;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .left_side .letter{font-family:arial,sans;font-size:16px;font-weight:bold;}
+	
+	#lightbox .LB_searchlocalefilter .index_by_letter{height:330px;overflow:auto;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .right_side{width:460px;padding-bottom:15px;border-bottom:1px dotted #BBB;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter.no_border .right_side{border:1px solid #FFF;padding-bottom:0;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .right_side ul{margin:2px 0 -2px;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .right_side ul li{margin:0 0 2px;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .right_side ul li a{color:#333;}
+	#lightbox .LB_searchlocalefilter .index_by_letter .item_letter .right_side ul li a:hover{color:#000;}
+	/* FIM LIGHTBOX SEARCH LOCALE FILTER */
+	
+	/* INICIO LIGHTBOX PERGUNTAS E RESPOSTAS */
+	#lightbox .LB_QA .form_wrapper{margin:10px 0}
+	#lightbox .LB_QA .item{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#333;margin-right:10px;margin-top:5px;font-weight:bold;}
+	#lightbox .LB_QA .item{_margin-top:0px;#margin-top:0px;}
+	#lightbox .LB_QA .item .notblank{color:#F00;}
+	#lightbox .LB_QA .desc{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#999;margin-right:10px;margin-top:5px;}
+	#lightbox .LB_QA .desc{_margin-top:0px;#margin-top:0px;}
+	#lightbox .LB_QA .selectP{width:253px;}
+	#lightbox .LB_QA .textboxP{margin-top:5px;}
+	#lightbox .LB_QA .textboxP.mode1{width:215px;}
+	#lightbox .LB_QA .textboxP.mode2{width:238px;}
+	#lightbox .LB_QA .textarea{margin:5px 0;height:75px;width:495px;}
+	#lightbox .LB_QA .inner_label_container label{color:#999;}
+	/* FIM LIGHTBOX PERGUNTAS E RESPOSTAS */
+	
+	/* INICIO LIGHTBOX CONDICOES DE PAGAMENTO */
+	#lightbox .LB_paymentmethod .cards_menu .card_col{width:40px;margin:0 15px;text-align:center;cursor:pointer;}
+	#lightbox .LB_paymentmethod .cards_menu .card_col img{margin-bottom:3px;}
+	#lightbox .LB_paymentmethod .cards_menu .card_col .qtd{font-size:18px;font-family:arial,sans;font-weight:bold;color:#000;}
+	#lightbox .LB_paymentmethod .card_box{margin-bottom:20px;background-color:#FFF;}
+	#lightbox .LB_paymentmethod .card_box .box_top{background:transparent url(http://static.quebarato.com.br/images/arrow_paymentmethod.gif) repeat-x -5000px -5000px;height:10px;}
+	#lightbox .LB_paymentmethod .card_box .box_content{border-right:2px solid #f2f2f2;border-left:2px solid #f2f2f2;border-bottom:2px solid #f2f2f2;border-top:0;padding:20px;height:135px;}
+	#lightbox .LB_paymentmethod .card_box .box_content{color:#999;background-color:#FFF;}
+	#lightbox .LB_paymentmethod .card_box .box_content ul{margin:0 20px -10px;height:90px;}
+	#lightbox .LB_paymentmethod .card_box .box_content ul li{margin:0 0 10px;}
+	#lightbox .LB_paymentmethod .card_box .box_content ul li p{font-size:11px;font-family:tahoma,verdana,arial,sans;}
+	#lightbox .LB_paymentmethod .card_box .box_content .hint{color:#ccc;font-size:9px;}
+	#lightbox .LB_paymentmethod .card_box .box_content .bt_qbpd_compreja{margin-left:5px;}
+	#lightbox .LB_paymentmethod .opt_aura .card_box .box_top{background-position:-465px top;}
+	#lightbox .LB_paymentmethod .opt_amex{display:none;}
+	#lightbox .LB_paymentmethod .opt_amex .card_box .box_top{background-position:-395px top}
+	#lightbox .LB_paymentmethod .opt_visa{display:none;}
+	#lightbox .LB_paymentmethod .opt_visa .card_box .box_top{background-position:-325px top}
+	#lightbox .LB_paymentmethod .opt_mastercard{display:none;}
+	#lightbox .LB_paymentmethod .opt_mastercard .card_box .box_top{background-position:-255px top}
+	#lightbox .LB_paymentmethod .opt_dinners{display:none;}
+	#lightbox .LB_paymentmethod .opt_dinners .card_box .box_top{background-position:-185px top}
+	#lightbox .LB_paymentmethod .opt_hipercard{display:none;}
+	#lightbox .LB_paymentmethod .opt_hipercard .card_box .box_top{background-position:-115px top}
+	#lightbox .LB_paymentmethod .opt_boleto{display:none;}
+	#lightbox .LB_paymentmethod .opt_boleto .card_box .box_top{background-position:-45px top}	
+	/* FIM LIGHTBOX CONDICOES DE PAGAMENTO */
+	
+	/* INICIO LIGHTBOX DENUNCIAR ANUNCIO */
+	#lightbox .LB_reportad .form_wrapper{margin:10px 0}
+	#lightbox .LB_reportad .item{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#333;margin-right:10px;margin-top:5px;font-weight:bold;}
+	#lightbox .LB_reportad .item{_margin-top:0px;#margin-top:0px;}
+	#lightbox .LB_reportad .item .notblank{color:#F00;}
+	#lightbox .LB_reportad .desc{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#999;margin-right:10px;margin-top:5px;}
+	#lightbox .LB_reportad .desc{_margin-top:0px;#margin-top:0px;}
+	#lightbox .LB_reportad .selectP{width:253px;}
+	#lightbox .LB_reportad .textboxP{margin-top:5px;}
+	#lightbox .LB_reportad .textboxP.mode1{width:215px;}
+	#lightbox .LB_reportad .textboxP.mode2{width:238px;}
+	#lightbox .LB_reportad .textarea{margin:5px 0;height:75px;width:495px;}
+	#lightbox .LB_reportad .inner_label_container label{color:#999;}
+	/* FIM LIGHTBOX DENUNCIAR ANUNCIO */
+	
+	/* INICIO LIGHTBOX ALERT MY PROFILE */
+	#lightbox.alertMyProfile{width:500px;}
+	#lightbox.alertMyProfile .LB_LB_alertMyProfile{}
+	/* FIM LIGHTBOX ALERT MY PROFILE */
+	
+/* FIM LIGHT BOX */
+
+/* INICIO BOTOES EDITAR AVATAR */
+
+.avatar_area{
+	cursor:pointer;
+	position:relative;
+	max-height:400px;
+}
+div.edit_avatar{
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	#height:99%;
+	_height:99%;
+	width:100%;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity:0;
+	z-index:2;
+}
+
+.avatar_area:hover .edit_avatar, .avatar_area_hover .edit_avatar{
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity:1;
+	border:1px solid #0098FB;
+}
+div.edit_avatar p{
+	cursor:pointer;
+	position:absolute;
+	bottom:0;
+	_bottom:2px;
+	left:0;
+	text-align:center;
+	width:100%;
+	line-height:20px;
+	color:#FFF;
+	z-index:4;
+	opacity:1;
+	filter:alpha(opacity=100)
+}
+div.edit_avatar p img{
+	padding-right:3px
+}
+div.edit_avatar .edit_avatar_bg{
+	cursor:pointer;
+	position:absolute;
+	bottom:0;
+	height:20px;
+	width:100%;
+	background-color:#000;
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+	z-index:3;
+}
+.avatar_tl_correction{
+	top:1px;
+	left:1px	
+}
+.avatar_tr_correction{
+	top:1px;
+	right:1px
+}
+/* FIM BOTOES EDITAR AVATAR*/
+
+/* INICIO PAGE TITLE WRAPPER */
+
+.page_title_wrapper {margin-bottom:20px;}
+.page_title_wrapper *{padding:0;margin:0;}
+.page_title_wrapper .title h1, .page_title_wrapper .title p{font-family:arial,sans;font-size:26px;letter-spacing:-0.4px;margin-bottom:5px;font-weight:normal;color:#333;}
+.page_title_wrapper .title h1{font-weight:bold;}
+.page_title_wrapper .subtitle p{font-size:12px;font-family:tahoma,verdana,arial,sans;padding-left:3px;}
+
+/* FIM PAGE TITLE WRAPPER */
+
+/* INICIO TITLE WRAPPER */
+
+.title_wrapper{padding-bottom:3px;}
+.title_wrapper .title h3, .title_wrapper .title p{font-family:arial,sans;font-size:20px;font-weight:bold;color:#333;}
+.title_wrapper .subtitle p{font-size:12px;font-family:tahoma,verdana,arial,sans;padding-left:3px;color:#000;}
+.title_wrapper .title h3 a, .home .title_wrapper .title p a{color:#000;text-decoration:none;}
+.title_wrapper .title h3 a:hover span, .title_wrapper .title p a:hover span{text-decoration:underline;}
+/* FIM TITLE WRAPPER */
+
+/* INICIO GRID TEMPLATES */
+	
+	/* INICIO GRID 3 COLUNAS */
+		
+		/* INICIO TEMPLATE 180 x 550 x 180 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: CADASTRO DE USUARIO 1 2 3, PUBLICACAO DE ANUNCIO, EDICAO DE ANUNCIO 1 2 */
+		#bd .grid180x550x180 .inner_mod{padding:40px 30px 80px;}
+		#bd .grid180x550x180 .middleCol{width:550px;margin-left:195px;}
+		#bd .grid180x550x180 .leftCol{width:180px;margin-right:15px;margin-left:-745px;}	
+		#bd .grid180x550x180 .rightCol{width:180px;margin-left:15px;}
+		/* FIM TEMPLATE 180 x 550 x 180 */
+
+		/* INICIO TEMPLATE 200 x 480 x 250 */
+		#bd .grid200x480x250 .inner_mod{padding:20px 20px 80px;}
+		#bd .grid200x480x250 .leftCol{width:200px;margin-right:15px;overflow:hidden;}
+		#bd .grid200x480x250 .rightCol{width:250px;margin-left:15px;overflow:hidden;}
+		/* FIM TEMPLATE 200 x 480 x 250 */
+		
+		/* INICIO TEMPLATE 200 x 570 x 160 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: RESULTADO DE BUSCA */
+		#bd .grid200x570x160 .inner_mod{padding:20px 20px 80px;_padding:20px 17px 80px;}
+		#bd .grid200x570x160 .middleCol{width:570px;margin-left:215px;}
+		#bd .grid200x570x160 .leftCol{width:200px;margin-right:15px;margin-left:-785px;;}
+		#bd .grid200x570x160 .rightCol{width:160px;margin-left:15px;}
+		/* FIM TEMPLATE 200 x 570 x 160 */
+		
+		/* INICIO TEMPLATE 200 x 585 x 160 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: PERFIL PUBLICO */
+		#bd .grid200x585x160 .inner_mod{padding:20px 20px 80px;_padding:20px 17px 80px;}
+		#bd .grid200x585x160 .leftCol_wp{width:785px;}
+		#bd .grid200x585x160 .middleCol{width:585px;margin-left:200px;}
+		#bd .grid200x585x160 .leftCol{width:200px;margin-left:-785px;}
+		#bd .grid200x585x160 .rightCol{width:160px;margin-left:15px;}
+		/* FIM TEMPLATE 200 x 585 x 160 */
+	
+	/* FIM GRID 3 COLUNAS */
+	
+	/* INICIO GRID 2 COLUNAS */
+	
+		/* INICIO TEMPLATE 200 x 745 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: CONTEUDO DE AREA LOGADA */
+		#bd .grid200x745 .inner_mod{padding:20px 20px 80px;}
+		#bd .grid200x745 .rightCol{width:745px;overflow:hidden;}
+		#bd .grid200x745 .leftCol{width:200px;margin-right:15px;overflow:hidden;}
+		/* FIM TEMPLATE 200 x 745 */
+		
+		/* INICIO TEMPLATE 300 x 640 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: CONTEUDO CORPORATIVO */
+		#bd .grid300x640 .inner_mod{padding:20px 20px 80px;_padding:20px 17px 80px;}
+		#bd .grid300x640 .rightCol{width:640px;overflow:hidden;}
+		#bd .grid300x640 .leftCol{width:300px;margin-right:20px;overflow:hidden;}
+		/* FIM TEMPLATE 300 x 640 */
+		
+		/* INICIO TEMPLATE 300 x 600 */
+		#bd .grid300x600 .inner_mod{padding:40px 40px 80px 60px;}
+		#bd .grid300x600 .rightCol{width:300px;margin-left:20px;overflow:hidden;}
+		/* FIM TEMPLATE 300 x 640 */
+	
+		/* INICIO TEMPLATE 450 x 460 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: LOGIN DE USUARIO */
+		#bd .grid450x460 .inner_mod{padding:30px 30px 10px;padding:30px 27px 10px;}
+		#bd .grid450x460 .leftCol{width:450px;margin-right:15px;overflow:hidden;}
+		#bd .grid450x460 .rightCol{width:460px;margin-left:15px;}
+		/* FIM TEMPLATE 450 x 460 */
+
+		/* INICIO TEMPLATE 530 x 410 */
+		#bd .grid530x410 .inner_mod{padding:20px 20px 80px;}
+		#bd .grid530x410 .leftCol{width:530px;margin-right:10px;overflow:hidden;}
+		#bd .grid530x410 .rightCol{width:410px;margin-left:10px;overflow:hidden;}
+		/* FIM TEMPLATE 530 x 410 */
+		
+		/* INICIO TEMPLATE 550 x 430 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: DETALHE DO ANUNCIO */
+		#bd .grid550x430 .inner_mod{padding:20px 0 80px 20px;}
+		#bd .grid550x430 .leftCol{width:530px;margin-right:10px;overflow:hidden;}
+		#bd .grid550x430 .rightCol{width:430px;margin-left:10px;overflow:hidden;}
+		/* FIM TEMPLATE 550 x 430 */
+		
+		/* INICIO TEMPLATE 640 x 300 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: HOME, MEU PAGAMENTO DIGITAL */
+		#bd .grid640x300 .inner_mod{padding:20px 20px 80px;}
+		#bd .grid640x300 .leftCol{width:640px;margin-right:10px;overflow:hidden;}
+		#bd .grid640x300 .rightCol{width:300px;margin-left:10px;overflow:hidden;}
+		/* FIM TEMPLATE 640 x 300 */
+		
+		/* INICIO TEMPLATE 640 x 320 */
+		/* LAYOUT UTILIZADO NAS PAGINAS: HOME DE CATEGORIAS */
+		#bd .grid660x300 .inner_mod{padding:20px 0 80px 20px;}
+		#bd .grid660x300 .leftCol{width:640px;margin-right:10px;overflow:hidden;}
+		#bd .grid660x300 .rightCol{width:320px;margin-left:10px;overflow:hidden;}
+		/* FIM TEMPLATE 640 x 320 */
+		
+		/* INICIO TEMPLATE 745 x 200 */
+		#bd .grid745x200 .inner_mod{padding:20px 20px 80px;}
+		#bd .grid745x200 .rightCol{width:200px;margin-left:15px;overflow:hidden;}
+		/* FIM TEMPLATE 745 x 200 */
+		
+	/* FIM GRID 2 COLUNAS */	
+	
+	/* INICIO GRID 1 COLUNA */
+		
+		/* INICIO TEMPLATE 940 */
+		#bd .grid940 .inner_mod{padding:30px 30px 80px;}
+		#bd .grid940 .main{width:940px;margin-left:15px;overflow:hidden;}
+		/* FIM TEMPLATE 940 */
+		
+	/* FIM GRID 1 COLUNA */
+
+/* FIM GRID TEMPLATES */
+
+/* INICIO DROPDOWN DE AUTOCOMPLETE */
+
+	.ac_results {
+		z-index: 9999;
+		background-color: #fff;
+		border:1px solid #eee;
+	}
+	.ac_over {
+		color: #fff;
+		background-color:#09f;
+		cursor:pointer
+	}
+
+	.ac_results li {
+		padding: 5px 10px
+	}
+
+/* INICIO DROPDOWN DE AUTOCOMPLETE */
+
+/* INICIO MENSAGEM TITULO DE CONCLUSAO */
+	
+	.msg_title_done_logged{
+		background:transparent url(http://static.quebarato.com.br/images/ico-ok-postad3.gif) no-repeat scroll 5px 0;
+		color:#333;
+		font-family:arial,sans;
+		font-size:20px;
+		font-weight:bold;
+		/*height:31px;*/
+		line-height:30px;
+		padding-left:45px;
+		letter-spacing:-0.4px;
+	}
+	.msg_title_done span{color:000;}
+	
+	.msg_title_done_notlogged{
+		background:transparent url(http://static.quebarato.com.br/images/ico-not-logged.gif) no-repeat scroll 5px 0;
+		color:#000;
+		font-family:arial,sans;
+		font-size:23px;
+		font-weight:bold;
+		/*height:31px;*/
+		line-height:42px;
+		padding-left:55px;
+		letter-spacing:-0.4px;
+	}
+	
+/* FIM MENSAGEM TITULO DE CONCLUSAO */
+
+/* INICIO MENSAGENS DE ALERTA */
+
+.warningmsg {border:1px solid #000;padding:10px;min-height:21px;margin:0 0 5px;}
+.warningmsg{_padding:10px 10px 12px;}
+
+.warningmsg .ico{background:transparent url(http://static.quebarato.com.br/images/warning_icons.gif) no-repeat -1000px -1000px;width:33px;height:21px;}
+.warningmsg  .bt_close{background:transparent url(http://static.quebarato.com.br/images/warning_bt_fechar.gif) no-repeat -1000px -1000px;width:14px;height:14px;font-size:0;text-indent:-9999px;display:block;margin-top:3px;}
+.warningmsg .WC_left{float:left;display:inline;position:absolute;}
+.warningmsg .WC_right{float:right;display:inline;}
+.warningmsg .WC_main{overflow:hidden;padding-left:33px;}
+
+/* INICIO TIPO HORIZONTAL */
+.warningmsg .horizontal {font-size:11px;font-family:tahoma,arial,sans;}
+.warningmsg .horizontal .WC_main .content{padding:3px 10px 0;}
+.warningmsg .horizontal .WC_main .content p{line-height:14px;}
+.warningmsg .horizontal .WC_main .content ul{margin:10px 0;font-size:10px;}
+.warningmsg .horizontal .WC_main .content ul li{background:transparent url(http://static.quebarato.com.br/images/list_bullet.gif) no-repeat 0px 5px;margin:0 0 4px;padding:0 0 0 10px;line-height:13px;}
+/* FIM TIPO HORIZONTAL  */
+
+/* INICIO TIPO VERTICAL */
+.warningmsg .vertical .ico{margin-top:3px;}
+.warningmsg .vertical .WC_main .title{padding:0 0 0 10px;}
+.warningmsg .vertical .WC_main .subtitle{font-size:10px;}
+.warningmsg .vertical .WC_main .content{padding:5px 0 10px 10px;margin-bottom:-10px;}
+.warningmsg .vertical .content{padding:5px 0 10px;margin-bottom:-10px;}
+.warningmsg .vertical .content p{margin-bottom:10px;line-height:11px;font-size:9px;}
+/* FIM TIPO VERTICAL */
+
+.warningmsg.w_atention{border:1px solid #E6CF3E;background-color:#FFF9D7;}
+.warningmsg.w_atention .ico{background-position:0px 0px;}
+.warningmsg.w_atention .bt_close{background-position:0px 0px;}
+
+.warningmsg.w_info{border:1px solid #CDCDCD;background-color:#F2F2F2;}
+.warningmsg.w_info .ico{background-position:0px -21px;}
+.warningmsg.w_info .bt_close{background-position:0px -14px;}
+
+.warningmsg.w_error{border:1px solid #CDADA5;background-color:#FFECE8;}
+.warningmsg.w_error .ico{background-position:0px -42px;}
+.warningmsg.w_error .bt_close{background-position:0px -28px;}
+
+.warningmsg.w_sucess{border:1px solid #38CA35;background-color:#CCFFCC;}
+.warningmsg.w_sucess .ico{background-position:0px -63px;}
+.warningmsg.w_sucess .bt_close{background-position:0px -42px;}
+
+/* FIM MENSAGENS DE ALERTA */
+
+/* INICIO MENSAGENS DE SEM CONTEUDO */
+
+.content_msgG{margin:10px auto;width:500px;display:block;#padding-bottom:10px;_padding-bottom:10px;}
+.content_msgG.large{width:570px;}
+.content_msgG.nolink .msg{margin-top:7px;}
+.content_msgG .smile_ico{background:#FFF url(http://static.quebarato.com.br/images/faces_icon.png) no-repeat -1000px -1000px;width:35px;height:36px;margin-right:5px;}
+.content_msgG .smile_ico.sad{background-position:0px 3px;}
+.content_msgG .smile_ico.blink{background-position:0px -75px;}
+.content_msgG .smile_ico.happy{background-position:0px -153px;}
+.content_msgG .msg{color:#CCC;font-size:18px;font-family:arial,sans;font-weight:bold;text-transform:lowercase;}
+.content_msgG .link{font-size:11px;font-family:tahoma,verdana,arial,sans;padding-left:3px;} 
+
+.content_msgP{margin:10px auto;width:500px;_padding-bottom:10px;#padding-bottom:10px;}
+.content_msgP.nolink .msg{margin-top:7px;}
+.content_msgP .smile_ico{background:#FFF url(http://static.quebarato.com.br/images/faces_icon.png) no-repeat -1000px -1000px;width:30px;height:30px;margin-right:5px;}
+.content_msgP .smile_ico.sad{background-position:1px -40px;}
+.content_msgP .smile_ico.blink{background-position:0px -118px;}
+.content_msgP .smile_ico.happy{background-position:0px -196px;}
+.content_msgP .msg{color:#CCC;font-size:12px;font-family:arial,sans;font-weight:bold;text-transform:lowercase;}
+.content_msgP .link{font-size:11px;font-family:tahoma,verdana,arial,sans;padding-left:2px;}
+
+/* FIM MENSAGENS DE SEM CONTEUDO */
+
+/* INICIO COLUNA ESTATISTICAS */
+
+.col_statistics{width:60px;text-align:center;margin-top:15px;}
+
+.col_statistics .ico{background:transparent url(http://static.quebarato.com.br/images/ico_statistics.gif) no-repeat -1000px -1000px;height:17px;width:17px;margin:0 auto;}
+.col_statistics .ads .ico {background-position:0px 0px;}
+.col_statistics .favorites .ico {background-position:0px -19px;}
+.col_statistics .visitors .ico {background-position:0px -37px;}
+
+.col_statistics .qtd{font-family:arial,sans;font-size:15px;font-weight:bold;}
+.col_statistics .name{font-family:tahoma,verdana,arial,sans;font-size:11px;}
+
+.col_statistics.CS_separator{background:transparent url(http://static.quebarato.com.br/images/separatorv-bg.png) repeat-y right 0;}
+
+.col_statics ul{padding:25px 10px 5px;}
+
+/* FIM COLUNA ESTATISTICAS */
+
+/* INICIO ADS */
+
+.ads_wrapper {margin-top:5px;}
+
+	/* INICIO AD GRID */	
+	.ads_grid ul li{border:1px solid #FFF;}
+	.ads_grid ul li:hover{border:1px solid #CCC;}
+	.ads_grid ul li.hover{border:1px solid #CCC;}/*IE6*/
+
+	.ads_grid .destaque{position:relative;left:-58px;top:-228px;z-index:100;display:none;}
+	.ads_grid .destaque.on{display:inline;}
+	
+	.ads_grid .ad{width:160px;height:245px;text-align:center;padding:10px 8px;	margin:0 5px 10px 7px;position:relative;overflow:hidden;}
+	.ads_grid .ad{_padding:10px 7px;_margin:0 4px 10px 6px;}/*IE6*/
+	
+	.ads_grid .ad .photo{width:160px;height:160px;margin-bottom:10px;}
+	.ads_grid .ad .photo.bg_loading{background:transparent url(http://static.quebarato.com.br/images/loading_160x160border.gif) no-repeat 0px 0px;}
+	.ads_grid .ad .photo a{height:160px;width:160px;overflow:hidden;display:block;}
+	.ads_grid .ad .photo a:hover{border:5px solid #ff6602;width:150px;height:150px;text-decoration:none;}
+	.ads_grid .ad .photo a:hover img{margin-top:-5px;margin-left:-5px;}
+	.ads_grid .ad .photo a img{height:160px;width:160px;display:none;}
+	
+	.ads_grid .ad .title{padding:0;margin:0;height:28px;overflow:hidden;}
+	.ads_grid .ad .title h2.title{font-size:11px;font-weight:normal;color:#09F;font-family:tahoma,verdana,arial,sans;}
+	.ads_grid .ad .title .not_trust .shield{margin:2px 0 0 0;cursor:pointer;}
+	.ads_grid .ad .title .not_trust h2.title{padding-left:10px;}
+	
+	.ads_grid .ad .price a{color:#333;text-decoration:none;}
+	.ads_grid .ad .price a:hover{color:#222;text-decoration:none;}
+	.ads_grid .ad .price .moeda{font-size:11px;font-family:georgia,arial,sans;font-weight:bold;}
+	.ads_grid .ad .price .valor{font-size:17px;font-family:georgia,arial,sans;font-weight:bold;	}
+	
+	.ads_grid .ad .user_logo{height:35px;margin-top:5px;}
+	.ads_grid .ad .user_logo img{margin:0 auto;}
+	
+	/* FIM AD GRID */
+
+	/* INICIO AD LIST */
+	
+	.ads_wrapper .ads_list ul li{border:1px solid #FFF;	border-bottom:1px dotted #CCC;}
+	.ads_wrapper .ads_list ul li{padding:1px;_background:transparent url(http://static.quebarato.com.br/images/separator-bg.png) repeat-x scroll center bottom;} /*IE6*/
+	.ads_wrapper .ads_list ul li:hover{background:none;border:1px solid #CCC;}
+	.ads_wrapper .ads_list ul li.hover{_background:none;_border:1px solid #CCC;}/*IE6*/
+	.ads_wrapper .ads_list ul li.nobg{background:none;border:1px solid #FFF}
+	.ads_wrapper .ads_list ul li.nobg{_background:none;}/*IE6*/
+
+	.ads_list .destaque{position:relative;left:-6px;top:-167px;z-index:100;display:none;}
+	.ads_list .destaque.on{display:inline;}
+	
+	.ads_wrapper .ads_list .ad{padding:10px;position:relative;height:165px;overflow:hidden;}
+	
+	.ads_list .ad .ad_left{margin-right:10px;width:140px;}
+	
+	.ads_list .ad .ad_left .top .photo{height:140px;width:140px;}
+	.ads_list .ad .ad_left .top .photo.bg_loading{background:transparent url(http://static.quebarato.com.br/images/loading_140x140border.gif) no-repeat 0px 0px;}
+	.ads_list .ad .ad_left .top .photo a{height:140px;width:140px;overflow:hidden;display:block;}
+	.ads_list .ad .ad_left .top .photo a:hover{border:5px solid #ff6602;width:130px;height:130px;text-decoration:none;}
+	.ads_list .ad .ad_left .top .photo a:hover img{margin-top:-5px;margin-left:-5px;}
+	.ads_list .ad .ad_left .top .photo a img{height:140px;width:140px;display:none;}
+	
+	.ads_list .ad .ad_left .bottom{	margin-top:5px;width:140px;}
+	
+	.ads_list .ad .ad_right{width:395px;_width:350px!important;}
+	
+	.ads_list .ad .ad_right .title{margin-bottom:1px;}
+	.ads_list .ad .ad_right .title h2.title{font-size:17px;color:#09F;font-family:arial,sans;height:19px;overflow:hidden;}
+	.ads_list .ad .ad_right .title .not_trust .shield{margin:2px 10px 0 0;cursor:pointer;}
+	
+	.ads_list .ad .ad_right .subtitle{margin-bottom:1px;}
+	.ads_list .ad .ad_right .subtitle span.subtitle{font-size:11px;color:#9c9c9c;font-family:tahoma,verdana,arial,sans;font-weight:none;}
+
+	.ads_list .ad .ad_right .price{margin-bottom:10px;color:#000;font-family:georgia,arial,sans;font-weight:bold;height:20px;}
+	.ads_list .ad .ad_right .price a{color:#333;text-decoration:none;}
+	.ads_list .ad .ad_right .price a:hover{color:#000;text-decoration:none;}
+	.ads_list .ad .ad_right .price .moeda{font-size:11px;}
+	.ads_list .ad .ad_right .price .valor{font-size:17px;}	
+	.ads_list .ad .ad_right .price .price_icons{margin:3px 0 0 3px;}
+	.ads_list .ad .ad_right .price .price_value span.obs{font-size:10px;color:#000;font-family:tahoma, arial, sans;}
+
+	.ads_list .ad .ad_right .ad_description{height:45px;}
+	.ads_list .ad .ad_right .ad_description .desc {padding:5px 0 0 25px;line-height-height:13px;background:transparent url(http://static.quebarato.com.br/images/quotes.gif) no-repeat scroll 2px 3px;font-family:tahoma,verdana,arial,sans;font-size:11px;color:#000;line-height:17px;}
+	.ads_list .ad .ad_right .ad_description .desc a {color:#000;}
+	.ads_list .ad .ad_right .ad_description .desc a:hover {text-decoration:none;}
+	.ads_list .ad .ad_right .ad_description .user_logo{margin-left:10px;}
+
+	.ads_list .ad .ad_right .info{margin-top:15px;}
+	.ads_list .ad .ad_right .info .user_description{font-family:tahoma;font-size:10px;color:#9c9c9c;}
+	.ads_list .ad .ad_right .info .user_description ul{margin-left:10px;}
+	.ads_list .ad .ad_right .info .user_description ul li{border:0;background:none;}
+	.ads_list .ad .ad_right .info .user_description .username{color:#0099ff;font-weight:bold;}
+	.ads_list .ad .ad_right .info .user_description .date{color:#f60;}
+
+	/* FIM AD LIST */
+	
+/* FIM ADS */
+
+/* INICIO APROVEITE E FACA MAIS COISAS */
+	
+	.info_box .inner{padding:15px;}
+	.info_box  .box_title{font-size:14px;color:#333;font-family:arial,sans;font-weight:bold;}
+	.info_box .bottom_part{position:relative;margin-top:15px;padding-top:15px;}
+	.info_box .bottom_part .part_separator{background:transparent url(http://static.quebarato.com.br/images/mainatributesbox_separator.gif) repeat-x top;height:1px;width:549px;_width:547px;color:transparent;margin:0;padding:0;position:absolute;left:-15px;top:0;}	
+	
+	.pd_criar .info_box{font-family:tahoma,verdana,arial,sans;font-size:12px}
+	.pd_criar .info_box .inner{padding:15px 15px 40px;	background:#FFF url(http://static.quebarato.com.br/images/bg_pdstep3.png) no-repeat 190px 105px;}
+	.pd_criar .info_box p{margin-bottom:10px;}
+	.pd_criar .info_box ul{margin-bottom:20px;}
+	.pd_criar .info_box ul li{font-size:11px;margin-bottom:3px;}
+	
+	.pd_vincule .info_box{font-family:tahoma,verdana,arial,sans;font-size:12px}
+	.pd_vincule .info_box .inner{padding:15px;}
+	.pd_vincule .info_box p{margin-bottom:10px;}
+	.pd_vincule .info_box .cartoes{margin:10px 0 15px;}
+	.pd_vincule .info_box .cartoes li{margin-right:10px;}
+	.pd_vincule .info_box .form{font-size:11px; margin-bottom:-10px;}
+	.pd_vincule .info_box .form .textboxP{width:150px;}
+	.pd_vincule .info_box .help{float:left;background:transparent url(http://static.quebarato.com.br/images/help_ico.gif) no-repeat left 0;font-size:11px;height:18px;margin:3px 0px 0px 10px;padding:1px 0 0 20px;}
+	
+	.bp_confira .bp_prod{text-align:center;}
+	.bp_confira .bp_prod .desc{margin-top:5px;}
+	.cc_conheca .cc_acao{text-align:center;}
+	.cc_conheca .cc_acao .desc{margin-top:5px;font-weight:bold;text-transform:uppercase;}
+	
+	.keep_browsing{background:#FFF url(http://static.quebarato.com.br/images/keepbrowsing_qb.png) no-repeat 270px 0px;padding:0 15px;}
+	.keep_browsing ul{margin:20px 0 -5px}
+	.keep_browsing ul li{margin:0 0 5px;background:transparent url(http://static.quebarato.com.br/images/keepbrowsing_options.gif) no-repeat 1000px 1000px;padding:5px 0 10px 35px;}
+	.keep_browsing ul li.it_first{background-position:0px 0px;}
+	.keep_browsing ul li.it_second{background-position:0px -33px;}
+	.keep_browsing ul li.it_third{background-position:0px -65px;}
+	
+/* FIM APROVEITE E FACA MAIS COISAS */
+
+/* INICIO ALERTA DE ANUNCIO AZUL TOPO */
+
+.ad_warning_topblue{margin:0 20px -9px;position:relative;background:transparent url(http://static.quebarato.com.br/images/lightblue_box_arrow.gif) no-repeat 25px bottom;padding-bottom:8px;}
+.ad_warning_topblue .warning_content{height:85px;padding:10px 10px 10px 80px;background:#ACD0F0 url(http://static.quebarato.com.br/images/icos_warning.jpg) no-repeat -10000px -10000px;}
+
+.ad_warning_topblue .warning_content .title_wrapper{padding:0;}
+.ad_warning_topblue .warning_content .title_wrapper .title p{font-family:arial,sans;font-size:22px;font-weight:bold;color:#FFF;}
+.ad_warning_topblue .warning_content .title_wrapper .title p span{color:#036;}
+.ad_warning_topblue .warning_content .title_wrapper .subtitle{margin-top:3px;}
+.ad_warning_topblue .warning_content .title_wrapper .subtitle p{font-family:tahoma,verdana,arial,sans;font-size:12px;color:#FFF;}
+
+.ad_warning_topblue .warning_content .other_ads .ad_photo{margin:0 10px;width:85px;height:85px;display:block;overflow:hidden;}
+.ad_warning_topblue .warning_content .other_ads .ad_photo:hover{border:5px solid #ff6600;width:75px;height:75px;}
+.ad_warning_topblue .warning_content .other_ads .ad_photo:hover img{margin-top:-5px;margin-left:-5px}
+.ad_warning_topblue .warning_content .other_ads .ad_photo img{width:85px;height:85px;}
+
+	/* INICIO NÃO LOGADO */
+	.ad_warning_topblue.not_logged .warning_content .left_side{width:430px;}
+	.ad_warning_topblue.not_logged .warning_content .right_side{width:440px;}
+	.ad_warning_topblue.not_logged .warning_content .left_side .side_content{padding:0 10px;}
+	.ad_warning_topblue.not_logged .warning_content .right_side .side_content{padding:0 10px;}
+	/* FIM NÃO LOGADO */
+	
+	/* INICIO INATIVO */
+	.ad_warning_topblue.inactive .warning_content{background-position:20px -370px;}
+	.ad_warning_topblue.inactive.not_logged .warning_content .title_wrapper{padding:17px 0 0;}
+	.ad_warning_topblue.inactive.logged .warning_content .title_wrapper{padding:17px 0 0;}
+	/* FIM INATIVO */
+	
+	/* INICIO EXPIRADO */
+	.ad_warning_topblue.expired .warning_content{background-position:20px -370px;}
+	.ad_warning_topblue.expired.not_logged .warning_content .title_wrapper{padding:2px 0 0;}
+	.ad_warning_topblue.expired.logged .warning_content .title_wrapper{padding:17px 0 0;}
+	/* FIM EXPIRADO */
+	
+	/* INICIO APAGADO */
+	.ad_warning_topblue.deleted .warning_content{background-position:20px -370px;}
+	.ad_warning_topblue.deleted .warning_content .title_wrapper{padding:30px 0 0;}
+	/* FIM APAGADO */
+	
+/* FIM ALERTA DE ANUNCIO AZUL TOPO */
+
+
+/* INICIO WARNING AD STATUS */
+
+.ad_status_warning{width:960px;margin:0 auto;text-align:center;}
+.ad_status_warning .inner{background:#ACD0F0 none;padding:20px;}
+
+/* FIM WARNING AD STATUS */
+
+/* INICIO WARNINGS DE ANUNCIOS */
+
+.warning_ad{
+	background-color:#ACD0F0;
+	width:960px;
+	height:109px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:-9px;
+}
+
+.warning_ad .title_warning{
+	background: url(http://static.quebarato.com.br/images/icos_warning.jpg) no-repeat;
+	height:47px;
+	padding-left:60px;
+	font-size:22px;
+	font-weight:bold;
+	color:#fff;
+	line-height:45px;
+	margin:27px 0 0 20px;
+	font-family:arial;
+}
+
+.warning_ad .position6{background-position:0 -212px}
+.warning_ad .position2{background-position:0 -54px}
+
+.warning_ad .title_warning_sub{line-height:30px;}
+.warning_ad .title_warning_sub1{line-height:17px;}
+.warning_ad .subtitle_warning{
+	font-size:12px;
+	color:#FFF;
+	padding-left:80px;
+	margin-top:-13px
+}
+
+.warning_ad .ad_apagado{background-position:0 -55px;}
+.warning_ad .ad_pendente{background-position:0 -110px;}
+.warning_ad  .ico_msg_warning{background-position:0 -161px;}
+.warning_ad .title_warning span{color:#003365;}
+.warning_ad .box_status_g{
+	background: url(http://static.quebarato.com.br/images/box_warning.png) no-repeat;	
+	width:328px;
+	height:55px;
+	margin:18px 0 0 35px;
+	padding:10px;
+}
+.warning_ad .box_status_g p{margin-top:3px;}
+.warning_ad .box_status_g span{
+	background:url(http://static.quebarato.com.br/images/etiquetas.gif) no-repeat;
+	width:90px;
+	height:17px;
+	display:block;
+}
+.warning_ad .box_status_g .status{line-height:20px;}
+.warning_ad .box_status_g span.processando{	background-position:0 0;}
+.warning_ad .box_status_g span.expirado{ background-position:0 -252px;}
+.warning_ad .box_status_g span.inativo{ background-position:0 -216px;}
+
+.warning_ad .box_status_g .ativa_ad{
+	margin-left:5px;
+	line-height:15px;
+}
+.warning_ad .ad_warning li{
+	margin:8px 10px 0 0;
+	_margin:8px 8px 0 0;
+}
+.warning_ad .box_status_g i{
+	font-style:normal;
+	color:#FF0000;
+}
+.setadetalhe{
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:9px;
+	width:100%;
+	background:url(http://static.quebarato.com.br/images/teste-iuri.gif) no-repeat;
+	_background:none;
+}
+
+.warning .bt_close{
+	background:transparent url(http://static.quebarato.com.br/images/user_confirmation_box-close.png) no-repeat;
+	display:block;
+	font-size:0;
+	height:14px;
+	width:14px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+/* FIM WARNINGS DE ANUNCIOS */
+
+/* INICIO MENU MAPA DE CATEGORIAS */
+
+/* INICIO MENU MAPA DE CATEGORIAS */
+
+/* INICIO FILTRO PADRAO */
+
+.filter_default{margin:0 0 15px;}
+.filter_default .arrow_box{margin-bottom:10px;}
+.filter_default ul.default_list_wrapper li{margin:0 0 10px;}
+
+	/* INICIO ITEM FILTRO COM TITULO */
+	.filter_default .titled .item_title a{cursor:pointer;color:#000;font-size:12px;font-weight:bold;padding-left:22px;background:transparent url(http://static.quebarato.com.br/images/arrows.gif) no-repeat -1000px -1000px;text-decoration:none;}
+	.filter_default .titled .collapsed .item_title a{background-position:3px -40px;color:#000;}
+	.filter_default .titled .collapsed .item_title a:hover{background-position:3px -57px;color:#333;text-decoration:underline;}
+	.filter_default .titled .item_title a{background-position:3px 1px;color:#000;}
+	.filter_default .titled .item_title a:hover{background-position:3px -12px;color:#333;text-decoration:underline;}
+	.filter_default .titled ul.default_list{margin:10px 0 0 22px;}
+	.filter_default .titled ul.default_list li{margin-bottom:7px;_margin-bottom:2px;}
+	/* FIM ITEM FILTRO COM TITULO */
+
+	/* INICIO ITEM FILTRO SEM TITULO */
+	.filter_default .not_titled ul.default_list{margin:0 0 0 13px;} 
+	.filter_default .not_titled ul.default_list li{margin-bottom:7px;}
+	/* FIM ITEM FILTRO SEM TITULO */
+	
+	/* INICIO ITEM FILTRO CHECKBOX */
+	.filter_default .default_list label{color:#000;}
+	.filter_default .default_list label:hover, .filter_default .default_list .checkbox_label.hover{color:#333;}
+	/* FIM ITEM FILTRO CHECKBOX */
+	
+/* INICIO FILTRO PADRAO */
+
+/* INICIO FILTRO POR CATEGORIAS E LOCALIDADE */
+
+.filter_category{margin:0 0 15px;}
+.filter_category .arrow_box{margin-bottom:10px;}
+.filter_category .item_title{font-family:tahoma,verdana,arial,sans;font-size:11px;color:#000;font-weight:bold;margin:10px 0 5px 16px;text-transform:uppercase;}
+.filter_category .navigator{background:transparent url(http://static.quebarato.com.br/images/arrow_locale_nav.png) no-repeat 0px 0px;font-family:tahoma,verdana,arial,sans;font-size:11px;color:#000;font-weight:bold;margin:10px 0 5px 0px;padding:3px 0 0 16px;}
+
+.filter_category .item_title .item a{color:#000;}
+.filter_category .item_title .item a:hover{color:#333;}
+.filter_category .item_title .item_qtd a{color:#999;font-weight:normal;font-size:10px;}
+.filter_category .item_title .item_qtd a:hover{text-decoration:none;color:#666;}
+
+.filter_category ul.category_list{margin:0 0 0 16px;}
+.filter_category ul.category_list li{margin-bottom:5px;}
+.filter_category ul.category_list li.lastOne{padding:5px 0 0;margin:0;}
+.filter_category ul.category_list li .item{font-family:tahoma,verdana,arial,sans;font:size:11px;color:#000;}
+.filter_category ul.category_list li .item a{font-family:tahoma,verdana,arial,sans;font:size:11px;color:#000;}
+.filter_category ul.category_list li .item a:hover{color:#333;}
+.filter_category ul.category_list li .item_qtd{font-size:10px;}
+.filter_category ul.category_list li .item_qtd a{color:#999;}
+.filter_category ul.category_list li .item_qtd a:hover{text-decoration:none;color:#666;}
+
+/* FIM FILTRO POR CATEGORIAS E LOCALIDADE */
+
+/* INICIO MENU LATERAL DASHBOARD */
+
+.dashboard_sidemenu{margin:0 0 20px;}
+
+.dashboard_sidemenu .arrow_box{margin-bottom:10px;}
+
+.dashboard_sidemenu .list_heading{margin-bottom:10px;}
+.dashboard_sidemenu ul.default_list_wrapper li{margin:0 0 5px;}
+
+.dashboard_sidemenu .not_titled .item_title a{cursor:pointer;color:#000;font-size:12px;padding-left:22px;background:none;text-decoration:none;font-weight:bold;}
+.dashboard_sidemenu .not_titled .item_title a:hover{color:#333;text-decoration:underline;}
+
+.dashboard_sidemenu .titled .collapsed .item_title a{font-weight:bold;cursor:pointer;color:#000;font-size:12px;padding-left:22px;text-decoration:none;background:transparent url(http://static.quebarato.com.br/images/arrows.gif) no-repeat 3px -40px;}
+.dashboard_sidemenu .titled .collapsed .item_title a:hover{color:#333;text-decoration:underline;background:transparent url(http://static.quebarato.com.br/images/arrows.gif) no-repeat 3px -57px;}
+.dashboard_sidemenu .titled .item_title a{font-weight:bold;cursor:pointer;color:#000;font-size:12px;padding-left:22px;text-decoration:none;background:transparent url(http://static.quebarato.com.br/images/arrows.gif) no-repeat 3px 1px;}
+.dashboard_sidemenu .titled .item_title a:hover{color:#333;text-decoration:underline;background:transparent url(http://static.quebarato.com.br/images/arrows.gif) no-repeat 3px -12px;}
+.dashboard_sidemenu .titled ul.default_list{margin:5px 0 0 18px;}
+.dashboard_sidemenu .titled ul.default_list li{margin:0px;padding:2px 4px;border:1px solid #FFF;}
+.dashboard_sidemenu .titled ul.default_list li:hover, .dashboard_sidemenu .titled ul.default_list li.df_hover {margin:0px;padding:2px 4px;border:1px solid #CCC;}
+.dashboard_sidemenu .titled ul.default_list li:hover a, .dashboard_sidemenu .titled ul.default_list li.df_hover a{color:#333;text-decoration:none;}
+.dashboard_sidemenu a {display:block}
+
+/* FIM MENU LATERAL DASHBOARD */
+
+/* INICIO LINKS PATROCINADOS */
+
+	/* INICIO WIDE */
+	.lp_wide{padding:6px 0 0;margin:0;position:relative;}
+	.lp_wide .lp_label{color:#999;font-size:9px;font-family:tahoma,verdana,arial,sans;position:absolute;top:10px;right:10px;}
+	.lp_wide ul{margin-top:-12px;}
+	.lp_wide ul li{border-bottom:1px dotted #CCC;}
+	.lp_wide ul li.item_last{border-bottom:1px dotted #FFF;}
+	.lp_wide .lp{padding:10px;_height:1%;}
+	.lp_wide .lp:hover{background-color:#F1F1F1;}
+	.lp_wide .lp.lp_hover{background-color:#F1F1F1;}
+	.lp_wide .lp .lp_title{color:#09F;font-weight:bold;}
+	.lp_wide.titleP .lp .lp_title p{font-size:12px;font-family:tahoma,verdana,arial,sans;}
+	.lp_wide.titleG .lp .lp_title p{font-size:16px;font-family:arial,sans;}
+	.lp_wide .lp .lp_content{font-family:tahoma,verdana,arial,sans;color:#000;font-size:11px;}
+	.lp_wide .lp .lp_content .url a{color:#F60;}
+	/* FIM WIDE */
+	
+	/* INICIO NARROW */
+	.lp_narrow{margin:10px 0;_margin:5px 0;overflow:hidden;}
+	.lp_narrow .lp_label{color:#999;font-size:9px;font-family:tahoma,verdana,arial,sans;margin:0 0 5px;}
+	.lp_narrow ul{margin-bottom:-5px;}
+	.lp_narrow ul li{margin-bottom:5px;}
+	.lp_narrow .lp{padding:5px 0; _height:1%;}
+	.lp_narrow .lp:hover{background-color:#F1F1F1;}
+	.lp_narrow .lp.lp_hover{background-color:#F1F1F1;}
+	.lp_narrow .lp .lp_title p{color:#09F;}
+	.lp_narrow.titleP .lp .lp_title p{font-size:12px;font-family:tahoma,verdana,arial,sans;}
+	.lp_narrow.titleG .lp .lp_title p{font-size:16px;font-family:arial,sans;font-weight:bold;}
+	.lp_narrow .lp .lp_content{font-family:tahoma,verdana,arial,sans;color:#000;font-size:11px;line-height:12px}
+	.lp_narrow .lp .lp_content p{overflow:hidden;}
+	.lp_narrow .lp .lp_content .url{font-size:10px;display:block;margin-top:2px;}
+	.lp_narrow .lp .lp_content .url a{color:#F60;}
+	/* FIM NARROW */
+	
+	/* INICIO OFERTAS BUSCAPE */
+	.lp_BPoffer{margin:10px 0 5px;}
+	.lp_BPoffer .lp_label{color:#999;font-size:9px;font-family:tahoma,verdana,arial,sans;margin:5px 10px;}
+	.lp_BPoffer .BPoffer{border:1px solid #FFF;padding:10px;}
+	.lp_BPoffer .BPoffer:hover, .lp_BPoffer .BPoffer.hover{border:1px solid #CCC;}
+	.lp_BPoffer .img a{width:95px;height:95px;display:block;overflow:hidden;}
+	.lp_BPoffer .img a:hover{border:5px solid #ff6600;width:85px;height:85px;}
+	.lp_BPoffer .img a img{width:95px;height:95px;}
+	.lp_BPoffer .img a:hover img{margin-top:-5px;margin-left:-5px}
+	.lp_BPoffer .info{padding-left:10px;}
+	.lp_BPoffer .info .title{height:28px;}
+	.lp_BPoffer .info .title p{font-size:12px;font-weight:bold;font-family:tahoma,verdana,arial,sans;}
+	.lp_BPoffer .info .price{margin:5px 0 2px;}
+	.lp_BPoffer .info .price a{font-size:11px;font-weight:bold;font-family:georgia,tahoma,verdana,arial,sans;color:#333;}
+	.lp_BPoffer .info .price a:hover{color:#000;text-decoration:none;}
+	.lp_BPoffer .info .price a .valor{font-size:17px;}
+	.lp_BPoffer .info .store a{font-size:11px;font-family:tahoma,verdana,arial,sans;color:#F60;}
+	#related_links_bottom{margin-top:6px;}
+	/* FIM  OFERTAS BUSCAPE */
+	
+	.adsbygoogle{margin:15px 0;}
+	
+	/* INICIO LINKS ADULTOS */
+	.ad_adult{margin:10px auto;overflow:hidden;display:block;}
+	/* FIM LINKS ADULTOS */
+	
+	/* INICIO AD RANDOMIZER */
+	.ad_randomizer{margin:10px auto;display:block;}
+	.ad_randomizer iframe{overflow:hidden;}
+	.ad_randomizer.W{margin:10px auto;text-align:center;}
+	/* FIM AD RANDOMIZER */
+
+/* FIM LINKS PATROCINADOS */ 
+
+/* INICIO AD DELETED */
+.addeleted_pg .page_title_wrapper{margin-bottom:40px;}
+.addeleted_pg .page_title_wrapper h1{font-size:22px;}
+
+.ad_deleted .text_ad_deleted{
+	font-weight:bold;
+	font-size:20px;
+	font-family:arial;
+	color:#333;
+}
+.ad_deleted .ads_grid .ad{height:225px;}
+
+.ad_deleted .anuncios_categ{
+	margin-top:20px;
+	position:relative;
+	border:1px solid #ececec;
+}
+.ad_deleted .anuncios_categ p{
+	padding:20px;
+	font-size:14px;
+	font-weight:bold;
+	fonf-family:arial;
+	border-bottom:1px solid #ececec;
+}
+.ad_deleted .anuncios_categ div{
+	padding-left:20px;
+}
+.ad_deleted .anuncios_categ ul .title_categ_deleted{
+	font-size:12px;
+	font-weight:bold;
+	margin:20px 0 15px;
+}
+.ad_deleted .anuncios_categ ul .title_categ_deleted a{
+	color: #000	
+}
+.ad_deleted .anuncios_categ .last{
+background:url("http://static.quebarato.com.br/images/plus.gif") no-repeat scroll 0 1px transparent;
+font-weight:bold;
+padding-left:15px;
+}
+
+.ad_deleted .anuncios_categ li{
+	margin-bottom:8px;
+}
+/* FIM AD DELETED */
+
+
+/* PAGINA DE TAGS */
+
+.tags .page_title_wrapper{margin-bottom:40px;}
+.tags .page_title_wrapper h1 {
+	color:#333333;
+	font-size:28px;
+	font-weight:bold;
+}
+.tags .page_title_wrapper .subtitle p {font-size:11px;}
+.tags .list_tags a{
+	margin:0 10px 0 0;
+	line-height:30px;
+}
+.tags .search_tags{
+	margin-top:20px;
+}
+.tags .search_tags p{
+	font-size:20px;
+	font-family:arial;	
+}
+.tags .text_tags{
+	width:330px;
+	height:28px;
+	margin-top:20px
+}
+
+/* FIM P�GINA DE TAGS */
+
+/* INICIO ANUNCIE AQUI */
+.anuncie_aqui{background-color:#a6d0e3;}
+.anuncie_aqui .content{background:#A6D0E3 url(http://static.quebarato.com.br/images/comeceporaqui_bg.png) no-repeat -20px -10px;_height:224px;}
+.anuncie_aqui .content .link_wrapper{display:block;padding:20px 5px 65px 20px;}
+.anuncie_aqui .content .link_wrapper .link1{color:#FFF;font-weight:bold;font-family:arial,sans;font-size:26px;font-weight:bold;letter-spacing:-0.9px;line-height:25px;display:block;margin-bottom:5px;}
+.anuncie_aqui .content .link_wrapper:hover .link1{text-decoration:underline;color:#FFF;}
+.anuncie_aqui .content .link_wrapper .link2{color:#036;font-weight:bold;font-family:arial,sans;font-size:50px;letter-spacing:-0.9px;line-height:42px;display:block;}
+.anuncie_aqui .content .link_wrapper:hover .link2{text-decoration:underline;color:#036;}
+/* FIM ANUNCIE AQUI */
+
+
+/* INICIO TOOLTIP */
+
+	.tooltip{position:absolute;display:none;z-index:999;width:150px;cursor:pointer;}
+	.tooltip.tt_on{display:block;}
+	
+	.tooltip .tt_top *{height:5px;overflow:hidden;}
+	.tooltip .tt_bottom *{height:5px;overflow:hidden;}
+
+	/* INICIO TOPO */
+	.tooltip .tt_top .tt_top_left{width:5px;_margin-right:-3px;background:transparent url(http://static.quebarato.com.br/images/tooltip_corners_bg.png) no-repeat 0 0;float:left;display:inline;}
+	.tooltip .tt_top .tt_top_right{width:5px;_margin-left:-3px;background:transparent url(http://static.quebarato.com.br/images/tooltip_corners_bg.png) no-repeat -5px 0;float:right;display:inline;}
+	.tooltip .tt_top .tt_top_main{overflow:hidden;width:auto;}
+	/* FIM TOPO */
+
+	/* INICIO MEIO */
+	.tooltip .tt_middle{background-color:#FFF;background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;padding:0 5px;}
+	.tooltip .tt_middle .tt_content{font-family:tahoma,verdana,arial,sans;font-size:9px;color:#999;text-align:left;background-color:#FFF;padding:10px;}
+	.tooltip .tt_middle .tt_content .destaque{color:#F00;}
+	.tooltip .tt_middle .tt_content .know_more{color:#09F;}
+	.tooltip .tt_middle .tt_content .know_more.doubt{display:block;background:transparent url(http://static.quebarato.com.br/images/help_ico_small.gif) no-repeat scroll right 0;padding-right:17px;text-align:right;}
+	.tooltip .tt_middle .tt_content .know_more span{border-bottom:1px dotted;line-height:13px;}
+	.tooltip .tt_middle .tt_content .know_more:hover{text-decoration:none;}
+	/* FIM MEIO */
+
+	/* INICIO BASE */
+	.tooltip .tt_bottom .tt_bottom_left{width:5px;_margin-right:-3px;background:transparent url(http://static.quebarato.com.br/images/tooltip_corners_bg.png) no-repeat 0 -5px;float:left;display:inline;}
+	.tooltip .tt_bottom .tt_bottom_right{width:5px;_margin-left:-3px;background:transparent url(http://static.quebarato.com.br/images/tooltip_corners_bg.png) no-repeat -5px -5px;float:right;display:inline;}
+	.tooltip .tt_bottom .tt_bottom_main{overflow:hidden;width:auto;}
+	/* FIM BASE */
+
+	/* INICIO VARIACOES CIMA OU BAIXO */
+
+		/* INICIO PARA CIMA E PARA ESQUERDA */
+		.tooltip.goes_up_left .tt_top *{height:10px;}
+		.tooltip.goes_up_left .tt_top .tt_top_left{background-position:0px 5px;}
+		.tooltip.goes_up_left .tt_top .tt_top_right{background-position:-5px 5px;}
+		.tooltip.goes_up_left .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat left 0;}
+		.tooltip.goes_up_left .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA CIMA E PARA ESQUERDA */
+		
+		/* INICIO PARA CIMA E PARA DIREITA */
+		.tooltip.goes_up_right .tt_top *{height:10px;}
+		.tooltip.goes_up_right .tt_top .tt_top_left{background-position:0px 5px;}
+		.tooltip.goes_up_right .tt_top .tt_top_right{background-position:-5px 5px;}
+		.tooltip.goes_up_right .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat right 0;}
+		.tooltip.goes_up_right .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA CIMA E PARA DIREITA */
+		
+		/* INICIO PARA CIMA CENTRALIZADO */
+		.tooltip.goes_up_center .tt_top *{height:10px;}
+		.tooltip.goes_up_center .tt_top .tt_top_left{background-position:0px 5px;}
+		.tooltip.goes_up_center .tt_top .tt_top_right{background-position:-5px 5px;}
+		.tooltip.goes_up_center .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat center 0;}
+		.tooltip.goes_up_center .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA CIMA E CENTRALIZADO */
+				
+		/* INICIO PARA BAIXO E PARA ESQUERDA */
+		.tooltip.goes_down_left .tt_bottom *{height:10px;}
+		.tooltip.goes_down_left .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat left -10px;}
+		.tooltip.goes_down_left .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA BAIXO E PARA ESQUERDA */
+		
+		/* INICIO PARA BAIXO E PARA DIREITA */
+		.tooltip.goes_down_right .tt_bottom *{height:10px;}
+		.tooltip.goes_down_right .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat right -10px;}
+		.tooltip.goes_down_right .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA BAIXO E PARA DIREITA */
+		
+		/* INICIO PARA BAIXO E CENTRALIZADO */
+		.tooltip.goes_down_center .tt_bottom *{height:10px;}
+		.tooltip.goes_down_center .tt_bottom .tt_bottom_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_middle_bg.png) no-repeat center -10px;}
+		.tooltip.goes_down_center .tt_top .tt_top_main{background:transparent url(http://static.quebarato.com.br/images/tooltip_bg.png) repeat;}
+		/* FIM PARA BAIXO E CENTRALIZADO */
+		
+	/* FIM VARIACOES CIMA OU BAIXO */
+
+.tooltip.tt_ad_not_trust{width:120px;}	
+.tooltip.tt_ad_erased{width:180px;}		
+
+/* FIM TOOLTIP */
+
+/* INICIO CATEGORY HOME */
+
+.category_home .togglefilter{
+	padding-right:50px;
+	margin-top:8px;
+}
+.category_home .togglefilter a{
+	color:#858585;
+	font-size:14px;
+	font-family:arial;
+	background: url(/26924http://static.quebarato.com.br/images/togglefilter.jpg) right 0 no-repeat;
+	padding-right:30px;
+	height:21px;
+	display:none;
+	line-height:20px;
+	text-decoration:none;
+}
+.category_home .togglefilter a.bt_open{background-position:right -40px}
+.category_home .togglefilter a.bt_open:hover{background-position:right -60px}
+.category_home .togglefilter a.bt_close{background-position:right 0}
+.category_home .togglefilter a.bt_close:hover{background-position:right -20px}
+
+.category_home .togglefilter a.dnone1{display:none}
+.category_home .togglefilter a.dblock1{display:block}
+.category_home .filter_category_home{
+	background: url(/26924http://static.quebarato.com.br/images/bg_filter_bottom.png) 0 bottom  no-repeat;
+	padding:0 20px 7px;
+	margin-bottom:25px;
+}
+
+.category_home .filter_category_home .item{
+	width:230px;
+	height:50px;
+	background: url(/26924http://static.quebarato.com.br/images/background_filtro.jpg) 0 bottom  no-repeat;
+}
+.category_home .filter_category_home .bg1{background-position:0 0;}
+.category_home .filter_category_home .bg2{background-position:-230px 0;}
+.category_home .filter_category_home .bg3{background-position:-470px 0;}
+.category_home .filter_category_home .bg4{background-position:-700px 0;}
+.category_home .filter_category_home .bg5{background-position:0 -55px;}
+.category_home .filter_category_home .bg6{background-position:-230px -55px;}
+.category_home .filter_category_home .bg7{background-position:-470px -55px;}
+.category_home .filter_category_home .bg8{background-position:-700px -55px;}
+.category_home .filter_category_home .bg9{background-position:0 -110px;}
+.category_home .filter_category_home .bg10{background-position:-230px -110px;}
+.category_home .filter_category_home .bg11{background-position:-470px -110px;}
+.category_home .filter_category_home .bg12{background-position:-700px -110px;}
+
+.category_home .filter_category_home .ico{
+	width:40px;
+	height:40px;	
+	background: url(/26924http://static.quebarato.com.br/images/icos_artesanato.gif);
+	margin-right:5px;
+}
+.category_home .filter_category_home .pintura{background-position:0 0;}
+.category_home .filter_category_home .quadros{background-position:125px 0}
+.category_home .filter_category_home .bijuterias{background-position:5px 46px}
+.category_home .filter_category_home .vestuario{background-position:125px 45px}
+.category_home .filter_category_home .decoracao{background-position:-54px 0}
+.category_home .filter_category_home .caixas{background-position:83px 0}
+.category_home .filter_category_home .arte_em-papel{background-position:-47px 46px}
+.category_home .filter_category_home .embalagens{background-position:78px 46px}
+.category_home .filter_category_home .bordados{background-position:173px 0}
+.category_home .filter_category_home .reciclagem{background-position:45px 0px}
+.category_home .filter_category_home .cestas{background-position:-102px 46px}
+.category_home .filter_category_home .presentes{background-position:38px 45px}
+.category_home .filter_category_home .item_title{
+	font-size:17px;
+	font-weight:bold;	
+}
+.category_home .showcase{position:relative;}
+.category_home .showcase .advertisement{
+	width:409px;
+	height:250px;
+	position:relative;
+	z-index:1	
+}
+.category_home .showcase .text_advertisement{
+	width:215px;
+	height:250px;
+	background: url(/26924http://static.quebarato.com.br/images/bg_showcasa.png) no-repeat;
+	margin-left:-9px;
+	position:relative;
+	z-index:2;
+}
+.category_home .showcase .text_advertisement p{
+	padding:20px 0 0 30px;
+	color:#FFF;
+}
+.category_home .showcase .text_advertisement .description{padding:10px 10px 0 30px;}
+.category_home .showcase .text_advertisement div{padding:20px 0 0 30px;} 
+#home-top-num-rotator{
+	position:absolute;
+	top:210px;
+	right:38px;
+	z-index:100;
+	height:50px;
+}
+#home-top-num-rotator li{
+	position:relative;
+	z-index:100;
+	width:50px;
+	padding-left:10px;
+	
+}
+#home-top-num-rotator li a{
+	width:50px;
+	display:block;
+	text-align:center;
+	height:40px;
+	width:50px;
+	display:block;
+	font-size:22px; 
+	font-family:arial; 
+	color:#FFF;	
+	text-decoration:none;
+}
+
+#home-top-num-rotator li .activeSlide{background: url(/26924http://static.quebarato.com.br/images/showcase_selected_blue.gif) 8px -2px no-repeat;}
+.category_home .showcase .text_advertisement .title{
+	font-size:22px;
+	font-weight:bold;
+}
+
+.category_home .ads_category_home{
+	border-bottom:1px dotted #CCCCCC;
+	padding-bottom:20px;
+}
+.category_home h3{font-size:20px;}
+.category_home .ads_grid .ad{height:255px;}
+.category_home .ads_grid li{margin-right:19px}
+.category_home .ads_grid .ad .attr{	color:#888888;}
+.category_home .ads_category_home .bt_add_car{margin-top:5px}
+
+.category_home .tips{
+	border-bottom:1px dotted #CCCCCC;
+	padding-bottom:30px;
+}
+	
+#bd .grid640x300special .tips .rightCol{width:200px}
+#bd .grid640x300special .tips .main{
+	border-right:1px dotted #CCCCCC;
+	padding-right:20px;
+}
+.category_home .tips .title h3{font-size:20px;}
+.category_home .tips .thumb_tip{margin-right:20px;}
+.category_home .tips .item_title a{
+	color:#000;
+	font-weight:bold;
+	font-family:arial;
+	font-size:18px;
+}
+.category_home .tips .link{margin:3px 0;}
+.category_home .tips .bt_tips{
+	margin:10px 0 0 158px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	background-color:#EEE;
+	line-height:17px;
+}
+.category_home .ads_near_you .item p{
+	font-size:12px;
+	font-weight:bold;
+}
+.category_home .column{
+	background-color:#EEEEEE;
+	padding:10px;
+}
+.category_home .column .mod.simple .inner{
+	background-color:#FFFFFF;
+	padding:20px;
+	position:static;
+}
+.category_home .has_shop .bg{
+	background: url(/26924http://static.quebarato.com.br/images/bg_joja.jpg) no-repeat;
+	padding:33px 0 0 66px;
+}
+.category_home .has_shop form .email{margin:20px 0 5px;}
+.category_home .has_shop form .textboxG{width:248px}
+.category_home .has_shop form .has_chekbox{margin:5px 5px 1px 2px; _margin:0 2px 1px 1px}
+.category_home .has_shop form .has_txt{
+	color:#656565;
+	line-height:21px;
+	margin-right:5px;
+}
+.category_home .scrl_vertical .scrl_content{height:310px;}
+.category_home .scrl_vertical .scrl_content .photos li{margin:10px 0}
+.category_home .scrl_vertical .thumb_lojad{margin-right:10px}
+.category_home .scroller .ctrl_bottom {bottom: 0; _bottom: 80px;}
+
+
+/* FIM CATEGORY HOME */
+
+/* INICIO COLUNA */
+	.column{background-color:#EEE;padding:10px;display:none;}
+	.column.no-margin{margin-top:-10px;}
+	.column .mod.simple .inner{position:static;background-color:#FFF;padding:20px;}
+/* FIM COLUNA */
+
+/* INICIO ULTIMO ANUNCIOS PUBLICADOS - LAST SEARCH */
+
+.last_published_ad .line {background:#fff}
+
+.last_published_ads_wrapper{margin:15px 0 0;}
+
+.last_published_ads_wrapper .last_published_ad{width:250px;padding:10px 12px;margin:0 10px 5px 0;border:1px solid #fff;}
+.last_published_ads_wrapper .last_published_ad.hover,.last_published_ads_wrapper .last_published_ad:hover{border:1px solid #CCC;}
+
+.last_published_ads_wrapper .last_published_ad .photo{width:95px;height:95px;display:block;overflow:hidden;text-decoration:none;}
+.last_published_ads_wrapper .last_published_ad .photo.bg_loading{background:transparent url(http://static.quebarato.com.br/images/loading_95x95border.gif) no-repeat 0px 0px;}
+.last_published_ads_wrapper .last_published_ad .photo:hover{border:5px solid #ff6600;width:85px;height:85px;}
+.last_published_ads_wrapper .last_published_ad .photo:hover img{margin-top:-5px;margin-left:-5px}
+.last_published_ads_wrapper .last_published_ad .photo img{width:95px;height:95px;display:none;}
+
+.last_published_ads_wrapper .last_published_ad .info{margin-left:10px;width:145px;}
+.last_published_ads_wrapper .last_published_ad .info .top_side{height:70px;}
+.last_published_ads_wrapper .last_published_ad .info .title{height:28px;overflow:hidden;}
+.last_published_ads_wrapper .last_published_ad .info .title h4{font-size:12px;font-family:Tahoma,Verdana,Arial,Sans;font-weight:bold;margin:-2px 0 3px;*margin:-1px 0 3px;}
+
+.last_published_ads_wrapper .last_published_ad .info .price{margin:0 0 3px;font-size:12px;font-family:georgia,arial,sans;font-weight:bold;color:#000;}
+.last_published_ads_wrapper .last_published_ad .info .price .moeda{font-size:11px}
+.last_published_ads_wrapper .last_published_ad .info .price .valor{font-size:17px;}
+.last_published_ads_wrapper .last_published_ad .info .price span a{color:#333;}
+.last_published_ads_wrapper .last_published_ad .info .price span a:hover{color:#000;text-decoration:none;}
+
+.last_published_ads_wrapper .last_published_ad .info .publish_time span{color:#999;font-size:10px;background:url(http://static.quebarato.com.br/images/lilclock.gif) no-repeat 0px 1px;padding-left:14px;display:block;_height:1%;}
+
+.last_published_ads_wrapper .last_published_ad .other_itens ul{margin-top:1px;height:15px;overflow:hidden;}
+.last_published_ads_wrapper .last_published_ad .other_itens ul li a{background:url(http://static.quebarato.com.br/images/setalaranja.gif) no-repeat 0px 4px;color: #F60;padding-left:10px;_height:1%;}
+
+/* FIM ULTIMO ANUNCIOS PUBLICADOS - LAST SEARCH */
