@@ -174,7 +174,6 @@
     				<?php fl_generator(get_permalink()); twitter_goodies_tweet_button();?>
     					
 				</div>
-				
 				<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
