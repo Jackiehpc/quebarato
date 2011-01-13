@@ -1323,6 +1323,10 @@ h3#reply-title {
   
 }
 
+#fb-like{
+  float: right!important;
+}
+
 .social-share{
   display: block;
   clear: both;  

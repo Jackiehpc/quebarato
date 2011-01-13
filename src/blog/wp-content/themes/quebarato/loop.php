@@ -166,14 +166,13 @@
 					
 				<?php endif; ?>
 				<div class="social-share">
-				<span class="comments-link">
 				
-				<?php comments_popup_link( __( '<span class="dcomments">comentários</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span> <span class="ncomments">%</span>', 'twentyten' ) ); ?></span>
-				<?php twitter_goodies_tweet_button(); ?>
-				<div class="facebook-like-button">
-				<iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=tahoma&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
-				</div>
-				
+    				<span class="comments-link">
+    				  <?php comments_popup_link( __( '<span class="dcomments">comentários</span><span class="ncomments">0</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span><span class="ncomments">1</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span> <span class="ncomments">%</span>', 'twentyten' ) ); ?>
+    				</span>
+    				
+    				<?php fl_generator(get_permalink()); twitter_goodies_tweet_button();?>
+    					
 				</div>
 				
 				<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
