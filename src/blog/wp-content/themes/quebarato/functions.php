@@ -54,6 +54,13 @@ wp_enqueue_script('quebarato_js',get_stylesheet_directory_uri() . '/quebarato.js
 if ( ! isset( $content_width ) )
 	$content_width = 640;
 
+
+add_filter('widget_tag_cloud_args', 'widget_tag_cloud_args_add_separator');
+function widget_tag_cloud_args_add_separator($args){
+  $args['separator'] = ', ';
+  return $args ;
+}
+
 /** Tell WordPress to run twentyten_setup() when the 'after_setup_theme' hook is run. */
 add_action( 'after_setup_theme', 'twentyten_setup' );
 
@@ -446,7 +453,7 @@ if ( ! function_exists( 'twentyten_posted_on' ) ) :
  * @since Twenty Ten 1.0
  */
 function twentyten_posted_on() {
-	printf( __( '<span class="%1$s">Posted on</span> %2$s <span class="meta-sep">by</span> %3$s', 'twentyten' ),
+	printf( __( '<span class="%1$s">Postado </span> ' . get_the_date() . ' <span class="meta-sep">às</span> '. str_replace(":","h",get_the_time()) , 'twentyten' ),
 		'meta-prep meta-prep-author',
 		sprintf( '<a href="%1$s" title="%2$s" rel="bookmark"><span class="entry-date">%3$s</span></a>',
 			get_permalink(),

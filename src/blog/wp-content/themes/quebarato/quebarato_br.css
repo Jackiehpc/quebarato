@@ -1171,7 +1171,7 @@ h1, .h1 {
 	font-family:Arial, sans;
 	font-size:27px;
 	font-weight:bold;
-	letter-spacing:-2px
+	letter-spacing: normal;
 }
 h2, .h2 {
 	font-family:Arial, sans;

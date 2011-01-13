@@ -53,6 +53,9 @@
 	 *
 	 * Without further ado, the loop:
 	 */ ?>
+
+<div id="post_content">
+
 <?php while ( have_posts() ) : the_post(); ?>
 
 <?php /* How to display posts in the Gallery category. */ ?>
@@ -62,6 +65,7 @@
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
 			<div class="entry-meta">
+			
 				<?php twentyten_posted_on(); ?>
 			</div><!-- .entry-meta -->
 
@@ -124,11 +128,12 @@
 
 	<?php else : ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-
-			<div class="entry-meta">
+		
+		<div class="entry-meta">
 				<?php twentyten_posted_on(); ?>
 			</div><!-- .entry-meta -->
+			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<div class="entry-summary">
@@ -160,10 +165,18 @@
 					</span>
 					
 				<?php endif; ?>
+				<div class="social-share">
 				<span class="comments-link">
 				
-				<?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?></span>
-				<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+				<?php comments_popup_link( __( '<span class="dcomments">comentários</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span>', 'twentyten' ), __( '<span class="dcomments">comentários</span> <span class="ncomments">%</span>', 'twentyten' ) ); ?></span>
+				<?php twitter_goodies_tweet_button(); ?>
+				<div class="facebook-like-button">
+				<iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=tahoma&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+				</div>
+				
+				</div>
+				
+				<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
 
@@ -180,3 +193,4 @@
 					<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
 				</div><!-- #nav-below -->
 <?php endif; ?>
+</div>

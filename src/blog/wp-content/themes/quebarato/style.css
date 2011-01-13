@@ -67,17 +67,18 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 
 #container {
 	float: left;
-	margin: 0 -300px 0 0;
+	margin: 0 -320px 0 0;
 	width: 100%;
 }
 #content {
-	margin: 0 320px 0 20px;
+	margin: 0 340px 0 20px;
 }
 #primary,
 #secondary {
 	float: right;
 	overflow: hidden;
-	width: 300px;
+	width: 320px;
+	color: #000;
 }
 #secondary {
 	clear: right;
@@ -87,6 +88,15 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 	width: 100%;
 }
 
+#primary ul li,#secondary ul li{
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+#primary a,#secondary a{
+  font-size: 11px !important;
+  padding: 10px 0px; 
+}
 /*
 LAYOUT: One column, no sidebar
 DESCRIPTION: One centered column with no sidebar
@@ -574,12 +584,50 @@ div.menu li {
 .page-title a:hover {
 	color: #ff4b33;
 }
+
+#post_content{
+  width: 620px;
+  display: block;
+}
+
+#post_content p{
+  padding: 0;margin: 0;
+  line-height: 20px;
+  margin-bottom: 14px !important;
+}
+
+.share-icons img{
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.widget_search h3{
+  font-family: tahoma,verdana,arial;
+  font-size: 10px;
+  font-weight: normal;
+  padding-bottom: 5px !important;
+}
+
+.widget_search input{
+  width: 290px !important;
+  border: 1px solid #ccc;
+  display: block;
+  height: 20px !important;
+  background: url(images/icons/search.jpg) #FFF right no-repeat;
+  font-family: tahoma,arial,verdana !important;
+  font-size: 11px !important;
+  padding-right: 20px;
+}
+
 #content .entry-title {
 	color: #000;
-	font-size: 21px;
+	font-size: 26px;
 	font-weight: bold;
 	line-height: 1.3em;
 	margin-bottom: 0;
+	font-family: arial,tahoma,verdana,
 }
 .entry-title a:link,
 .entry-title a:visited {
@@ -591,8 +639,11 @@ div.menu li {
 	color: #ff4b33;
 }
 .entry-meta {
-	color: #888;
-	font-size: 12px;
+	color: #999;
+	font-size: 10px;
+	text-transform: lowercase;
+	font-family: tahoma,verdana,arial;
+	line-height: 13px;
 }
 .entry-meta abbr,
 .entry-utility abbr {
@@ -724,11 +775,6 @@ body.page .edit-link {
   margin: 10px 0 10px -20px !important;
   background: url('images/icons/tag.jpg') no-repeat;
   letter-spacing: normal;
-}
-
-.comments-link{
-  display: block;
-  margin: 10px 0;  
 }
 
 .entry-utility {
@@ -1214,14 +1260,109 @@ h3#reply-title {
 	padding: 0;
 }
 #primary {
+  margin-top: 12px;
 }
 #secondary {
+}
+
+#primary h3, #secondary h3{
+  display: block;
+  padding-bottom: 10px;
+}
+
+#primary a, #secondary a{
+  line-height: 20px;  
+  color: #0099ff !important;
+  font-family: tahoma,verdana,arial;
+  font-size: 11px;
 }
 
 /* Footer widget areas */
 #footer-widget-area {
 }
 
+#widget_twitter_vjck *{
+  line-height: 13px !important;
+}
+
+#widget_twitter_vjck{
+  background: url(images/bg_twitter.jpg) no-repeat;
+  width: 307px;
+  height: 243px;
+  padding-top: 60px; 
+  margin-top: -10px;
+  font-size: 11px;
+}
+
+#widget_twitter_vjck li{
+  margin: 0 15px !important;
+  font-family: tahoma,arial,verdana !important; 
+  border-bottom: 1px dotted gray; 
+  padding: 6px 0;
+}
+
+#widget_twitter_vjck li a{
+  padding: 0;margin: 0;
+  font-size: 11px !important;
+}
+
+.textwidget *{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.comments-link{
+  background: url("images/comments.jpg") no-repeat;
+  height: 19px;
+  display: block;
+  padding-left: 23px;
+  margin-left: -2px;
+  text-decoration: none;
+  float: left;
+  width: 350px;
+  
+}
+
+.social-share{
+  display: block;
+  clear: both;  
+  margin-top: 15px;
+  height: 25px;
+}
+.social-share iframe{
+  float: right;
+}
+
+.facebook-like-button{
+  width: 200px;
+  float: right;
+}
+
+.comments-link a,.comments-link a:hover{
+  text-decoration: none;
+  font-size: 10px;
+ }
+
+.dcomments{
+  float: left;
+}
+
+.ncomments{
+  background: url(images/icons/ncomments.jpg) no-repeat;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  width: 35px
+}
+
+.widget_categories li a,.widget_archive li a,.widget_recent_entries li a{
+  margin-left: -14px !important;
+  font-family: tahoma,arial,verdana;
+}
+
+.entry-content{
+  width: 620px !important;
+}
 
 /* =Footer
 -------------------------------------------------------------- */
@@ -1318,6 +1459,7 @@ code {
 		font-size: 14pt;
 		line-height: 1.6em;
 	}
+
 	.entry-title {
 		font-size: 21pt;
 	}
@@ -1369,4 +1511,5 @@ code {
 	.home .sticky {
 		border: none;
 	}
+		
 }

@@ -45,4 +45,19 @@
         });
       }, 2 * 1000);
     }
+    
+    $("#s").val("pesquisar no blog");
+    $("#s").blur(function(){
+        if($(this).val() == ""){
+          $(this).val('pesquisar no blog');
+        }
+    }).click(function(){
+      if($(this).val() == "pesquisar no blog"){
+          $(this).val('');
+          
+        }
+    });
+    
+    $("#widget_twitter_vjck li:last").css("border","none");
+    
   });

@@ -9,6 +9,23 @@
 ?>
 
 		<div id="primary" class="widget-area" role="complementary">
+		  
+		  <div class="share-icons">
+		    <a href="<?php echo site_url() ?>/feed" target="_blank">
+		      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/icons/feed.jpg" title="feed" alt="feed" />
+		    </a>
+		    <a href="http://twitter.com/quebarato" target="_blank">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/images/icons/twitter.jpg" title="twitter" alt="twitter" />
+        </a>
+        <a href="http://facebook.com/quebarato" target="_blank">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/images/icons/facebook.jpg" title="facebook" alt="facebook" />
+        </a>
+        <a href="http://youtube.com/quebarato" target="_blank">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/images/icons/youtube.jpg" title="youtube" alt="youtube" />
+        </a>
+		  </div>
+		  
+		  		  
 			<ul class="xoxo">
 
 <?php
