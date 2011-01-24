@@ -57,6 +57,8 @@
                     // show all ads but make sure the sticky featured ads don't show up first
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                     query_posts(array('post_type' => 'ad_listing', 'caller_get_posts' => 1, 'paged' => $paged));
+					
+					_e("asd");
                 ?>
 
                 <?php get_template_part('loop', 'ad'); ?>

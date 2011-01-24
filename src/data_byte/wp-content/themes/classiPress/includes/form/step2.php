@@ -92,7 +92,7 @@ if(!$error_msg) {
     ?>
 
     <div id="step2"></div>
-
+		
       <h2 class="dotted"><?php _e('Review Your Listing','cp');?></h2>
 
             <img src="<?php bloginfo('template_url'); ?>/images/step2.gif" alt="" class="stepimg" />
