@@ -3,7 +3,7 @@
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
-include_once '../../../wp-config.php';
+include_once '../../../../wp-config.php';
 
 
 
