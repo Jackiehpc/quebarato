@@ -1,7 +1,7 @@
 /* INICIO DISCLAIMER */
 .dblock{display:block!important;}
 .disclaimer_bottom {margin:10px 0;padding:0 5px;}
-.top_disclaimer {height:30px;margin:5px 0;padding:0;line-height:17px;}
+.top_disclaimer {height:30px;margin:5px 0;padding:0;line-height:17px;padding-bottom: 9px;}
 
 .top_disclaimer .not_logged{padding-top:10px;color:#828282;}
 .top_disclaimer .not_logged .leftCol{width:535px;padding-right:5px;height:15px;overflow:hidden;}
@@ -219,7 +219,7 @@
 	#ft .footer_middle .cities_near{padding-top:8px;}
 	#ft .footer_middle .quebarato_world{background:url(http://static.quebarato.com.br/26924/images/worldmap.png) no-repeat 0px 2px;display:block;padding:0 0 0 48px;*padding:1px 0 1px 48px;}
 	#ft .footer_middle .quebarato_world .selectP{width:160px;}
-	#ft .footer_bottom{background-color:#DADADA;padding:15px 20px;}
+	#ft .footer_bottom{background-color:#DADADA;padding:15px 20px 0;}
 	#ft .footer_bottom .logo_qb_footer{font-size:0px;text-indent:-9999px;background:transparent url(http://static.quebarato.com.br/26924/images/logo_qb_footer.png) no-repeat 0px 0px;width:115px;height:32px;display:block;}
 	#ft .footer_bottom .our_comunities{width:370px;float:right;}
 	#ft .footer_bottom .our_comunities ul{margin-top:5px;}

@@ -1612,7 +1612,7 @@ function make_site_theme_from_oldschool($theme_name, $template) {
 	// Copy files from the old locations to the site theme.
 	// TODO: This does not copy arbitarary include dependencies.  Only the
 	// standard WP files are copied.
-	$files = array('index.php' => 'index.php', 'wp-layout.css' => 'style.css','wp-comments.php' => 'comments.php', 'wp-comments-popup.php' => 'comments-popup.php');
+	$files = array('index.php' => 'index.php', 'wp-layout.css' => 'style.css', 'wp-comments.php' => 'comments.php', 'wp-comments-popup.php' => 'comments-popup.php');
 
 	foreach ($files as $oldfile => $newfile) {
 		if ($oldfile == 'index.php')

@@ -1229,10 +1229,10 @@ h6, .h6 {
 }
 
 .faded {
-	color:#828282;
+	color:#828282 !important;
 }
 .very_faded {
-	color:#b2b2b2;
+	color:#b2b2b2 !important;
 }
 
 .tiny {
@@ -1698,11 +1698,15 @@ background-position:0 -35px;
 }
 
 .busca .text_busca {
-	width:261px;
+	width:261px !important;
 	font-family:Arial;
 	font-size:16px;
 	margin:1px 0;
-	-moz-box-shadow: none !important;
+	border: none !important;
+	box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  line-height: 20px;
 }
 
 a.rss_link{
@@ -1744,6 +1748,14 @@ a.rss_link:hover{text-decoration:none;}
 	outline:none;
 }
 
+.busca:focus{
+  background-color: #FFF !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border: none !important;
+}
+
 #ft .busca{
 	margin: 0 100px 0 58px;
 }
@@ -1773,7 +1785,7 @@ busca * {vertical-align:middle;}
 	color:#999;
 	cursor:pointer;
 	display:block;
-	padding-top:3px;
+	padding-top:0;
 	width:150px;
 	padding-right:15px;
 	text-align:right;
@@ -1820,11 +1832,11 @@ a.busca_lista_categorias span {
 
 .category_menu {
 	position:absolute;
-	width:145px;
+	width:160px;
 	border:1px solid #eee;
 	border-top:none;
 	margin-top:3px;
-	margin-left:23px;
+	margin-left:10px;
 	background:#fff url(http://static.quebarato.com.br/26924/images/category_search_filter-bg.png) no-repeat left top;
 	padding-top:9px;
 	z-index:1;

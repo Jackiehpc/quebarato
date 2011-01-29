@@ -28,6 +28,18 @@
   }
   
   $(function(){
+    
+      var img_path = "images";
+      
+      jQuery.preloadImages = function(){
+        
+        for(var i = 0; i<arguments.length; i++){
+          jQuery("<img>").attr("src", img_path + arguments[i]);
+        }
+      }
+      
+    $.preloadImages("blog-logo.jpg","submit-bg-hover.jpg");
+    
     visibleAds = $('.last_published_ads_content>ul>li').not('.hidden');
     hiddenAds  = $('.last_published_ads_content>ul>li.hidden');
 
@@ -59,5 +71,11 @@
     });
     
     $("#widget_twitter_vjck li:last").css("border","none");
+    
+    $(".share-icons img").hover(function(){
+      $(this).animate({opacity: 0.7},100);
+    },function(){
+      $(this).animate({opacity: 1},100);
+    })
     
   });

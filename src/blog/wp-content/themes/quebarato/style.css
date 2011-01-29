@@ -67,18 +67,19 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 
 #container {
 	float: left;
-	margin: 0 -320px 0 0;
+	margin: 0 -325px 0 0;
 	width: 100%;
 }
 #content {
-	margin: 0 340px 0 20px;
+	margin: 0 335px 0 20px;
 }
 #primary,
 #secondary {
 	float: right;
 	overflow: hidden;
-	width: 320px;
+	width: 318px;
 	color: #000;
+	padding-right: 5px;
 }
 #secondary {
 	clear: right;
@@ -178,10 +179,44 @@ div.menu,
 	width: 1003px;
 }
 
+#wrapper{
+  background-color: #EEEEEE !important;
+  text-align: left !important;
+}
+
+#main{
+   background-color: #FFF !important;
+}
+
+.breadcrumbs{
+  font-size: 12px;
+  font-family: tahoma,verdana,arial;
+}
+
+.breadcrumbs span{
+  color: #ffd600;
+  font-weight: bold;
+}
+
+.lnkhome{
+  font-weight: normal !important;
+  color: #FFF !important;
+}
+
+#navegation{
+  margin-left: -17px;
+}
+
 #navegation li{
-  padding-right: 10px;
   font-family: Tahoma,Verdana,Arial;
   font-size: 13px;
+  background: url(images/icons/arrow.gif) center right no-repeat;
+  padding-right: 15px;
+  padding-bottom: 2px; 
+}
+
+#navegation li a{
+  padding: 0 5px;
 }
 
 #navegation  .current_page_item{
@@ -341,9 +376,9 @@ a:link {
 a:visited {
 	color: #743399;
 }
-a:active,
+
 a:hover {
-	color: #ff4b33;
+	text-decoration: underline;
 }
 
 /* Text meant only for screen readers */
@@ -615,10 +650,16 @@ div.menu li {
   border: 1px solid #ccc;
   display: block;
   height: 20px !important;
-  background: url(images/icons/search.jpg) #FFF right no-repeat;
+  background: url(images/icons/blog_search.jpg) right 2px no-repeat #FFF;
   font-family: tahoma,arial,verdana !important;
-  font-size: 11px !important;
+  font-size: 12px !important;
   padding-right: 20px;
+}
+
+.widget_search input:hover,.widget_search input:focus{
+ background-position: right -17px; 
+ border: 1px solid #101010;
+ color: #101010;
 }
 
 #content .entry-title {
@@ -636,7 +677,7 @@ div.menu li {
 }
 .entry-title a:active,
 .entry-title a:hover {
-	color: #ff4b33;
+	color: #0099ff;
 }
 .entry-meta {
 	color: #999;
@@ -1182,8 +1223,9 @@ h3#reply-title {
 	margin-left: 1.3em;
 }
 .widget_search #s {/* This keeps the search inputs in line */
-	width: 60%;
+	width: 282px !important;
 }
+
 .widget_search label {
 	display: none;
 }
@@ -1262,6 +1304,7 @@ h3#reply-title {
 #primary {
   margin-top: 12px;
 }
+
 #secondary {
 }
 
@@ -1288,9 +1331,9 @@ h3#reply-title {
 #widget_twitter_vjck{
   background: url(images/bg_twitter.jpg) no-repeat;
   width: 307px;
-  height: 243px;
-  padding-top: 60px; 
+  height: 275px;
   margin-top: -10px;
+  padding-top: 115px;
   font-size: 11px;
 }
 
@@ -1319,13 +1362,26 @@ h3#reply-title {
   margin-left: -2px;
   text-decoration: none;
   float: left;
-  width: 350px;
+  _margin: 0;
+  _width: 120px;
   
 }
 
 #fb-like{
   float: right!important;
+  width: 100px;
+  margin: 0 !important;
+  display: table-cell;
 }
+
+  .connect_widget_button_count_count{
+    min-width: 10px !important;  
+  }
+
+  #fb-like iframe{
+    display: block;
+    width: 90px !important;
+  }
 
 .social-share{
   display: block;
@@ -1349,6 +1405,8 @@ h3#reply-title {
 
 .dcomments{
   float: left;
+  widht: 60px;
+  padding-right: 5px;
 }
 
 .ncomments{
@@ -1436,12 +1494,14 @@ code {
 	body {
 		background: none !important;
 	}
+	
 	#wrapper {
 		clear: both !important;
 		display: block !important;
 		float: none !important;
 		position: relative !important;
 	}
+	
 	#header {
 		border-bottom: 2pt solid #000;
 		padding-bottom: 18pt;
@@ -1511,9 +1571,92 @@ code {
 	}
 	#main {
 		display: inline;
+
 	}
 	.home .sticky {
 		border: none;
 	}
+	
 		
 }
+
+#lnkHome{
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 143px;
+    height: 101px;
+    top: 181px;
+    *top: 189px;
+    _top: 212px;
+    margin-left: 495px;
+    outline: none;
+    background: url("images/blog-logo.jpg") no-repeat;
+    text-decoration: none !important;
+ }
+ 
+ #lnkHome:hover{
+   background: url("images/blog-logo-hover.jpg") no-repeat;
+   text-decoration: none !important;
+ }
+ 
+ .credits{
+  margin-top: -10px !important;  
+ }
+ 
+ .our_comunities p{
+   margin-bottom: -5px !important;
+ }
+ 
+ .credits p{
+   margin: 0 !important;
+ }
+ 
+ .disclaimer_bottom p{
+   margin-top: 10px 0 0 0 !important;
+   padding: 0 !important;
+   line-height: 12px !important;
+ }
+ 
+ .small {
+    font-size: 10px !important;
+}
+
+.makeatour p, .we p,.help p{
+  margin-bottom: 5px !important;
+}
+
+.right_side{
+  margin-top: -6px !important;
+}
+
+.footer_middle strong{
+  color: #000 !important;
+}
+
+#submit{
+  padding: 0 !important;
+  background: url("images/submit-bg.jpg") no-repeat;
+  display: table-cell !important;
+  height: 30px;
+  width: 160px !important;
+  line-height: 30px !important;
+  vertical-align: middle;
+  color: #FFF !important;
+  font-size: 14px !important;
+  font-weight: bold;
+  text-align: center !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding-bottom: 5px !important;
+}
+
+#submit:hover{
+  background: url("images/submit-bg-hover.jpg") no-repeat;
+}
+
+.category_menu{
+  z-index: 500 !important;
+}
+
+

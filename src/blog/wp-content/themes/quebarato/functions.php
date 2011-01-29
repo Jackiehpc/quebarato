@@ -1,6 +1,6 @@
 <?php
 
-wp_enqueue_style('quebarato', get_stylesheet_directory_uri() . '/quebarato_br');
+wp_enqueue_style('quebarato', get_stylesheet_directory_uri() . '/quebarato_br.css');
 wp_enqueue_style('header_footer', get_stylesheet_directory_uri() . '/header_footer_br.css');
 wp_enqueue_style('oocss_br', get_stylesheet_directory_uri() . '/oocss_br.css');
 wp_enqueue_script('jQuery',get_stylesheet_directory_uri() . '/jquery-1.4.min.js');

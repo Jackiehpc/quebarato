@@ -156,9 +156,14 @@
               <div class="locale">
                 <div class="line">
                   
-                 <div id="navegation" >
-                    <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-                 </div>
+                 <div class="breadcrumbs">
+                  <?php
+                  if(function_exists('bcn_display'))
+                  {
+                      bcn_display();
+                  }
+                  ?>
+                </div>
                   
                 </div>
               </div>
@@ -174,9 +179,8 @@
 
 	
 		<div id="masthead">
-			
+			<a href="http://blog.quebarato.com.br" id="lnkHome">&nbsp;</a>
 
-			
 		</div><!-- #masthead -->
 	</div><!-- #header -->
 
