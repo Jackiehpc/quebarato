@@ -83,23 +83,10 @@
 											$id_pagseguro = get_post_meta($post->ID, 'cp_id_pagamentodigital', true);
 											
 											
-											
-											if($id_pagseguro && get_post_meta($post->ID, 'cp_token_pagamentodigital', true) &&  get_post_meta($post->ID, 'cp_usar_o_pagamento_digital_1', true)): ?>
-											
-												<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post">
-													<input name="url_retorno" type="hidden" value="<?php echo home_url(); ?>/wp-content/themes/dataByte/pagamentodigital.php" />
-													<input name="email_loja" type="hidden" value="<?php echo $id_pagseguro; ?>">
-													<input name="produto_codigo_1" type="hidden" value="<?php echo $post->ID; ?>">
-													<input name="produto_descricao_1" type="hidden" value="<?php the_title(); ?>">
-													<input name="produto_qtde_1" type="hidden" value="1">
-													<input name="produto_valor_1" type="hidden" value="<?php echo get_number_price($post->ID); ?>" >
-													<input name="tipo_integracao" type="hidden" value="PAD">
-													<input name="free" type="hidden" value="<?php echo $post->ID; ?>">
-													<input name="frete" type="hidden" value="0">
+											// var_dump($id_pagseguro, get_post_meta($post->ID, 'cp_token_pagamentodigital', true), get_post_meta($post->ID, 'cp_usar_o_pagamento_digital', true));
+											if($id_pagseguro && get_post_meta($post->ID, 'cp_token_pagamentodigital', true) &&  get_post_meta($post->ID, 'cp_usar_o_pagamento_digital', true)): ?>
+													<a target='_blank' href='<?php echo home_url(); ?>/wp-content/themes/dataByte/form_pagamento_digital.php?ad_id=<?php echo $post->ID;?>'><img src="https://www.pagamentodigital.com.br/webroot/img/bt_comprar.gif" /></a>
 													
-													<input type="image" src="https://www.pagamentodigital.com.br/webroot/img/bt_comprar.gif" value="Comprar" alt="Comprar" border="0" align="absbottom" >
-												</form>
-												
 											<?php endif; ?>
 										<li id="cp_listed"><span><?php _e('Listed:', 'appthemes') ?></span> <?php the_time(get_option('date_format') . ' ' . get_option('time_format')) ?></li>
 
