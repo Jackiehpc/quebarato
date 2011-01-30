@@ -28,8 +28,7 @@
   }
   
   $(function(){
-    
-      var img_path = "images";
+      var img_path = "wp-content/themes/quebarato/images";
       
       jQuery.preloadImages = function(){
         

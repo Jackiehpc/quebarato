@@ -179,7 +179,7 @@
 
 	
 		<div id="masthead">
-			<a href="http://blog.quebarato.com.br" id="lnkHome">&nbsp;</a>
+			<a href="<?php echo site_url() ?>" id="lnkHome">&nbsp;</a>
 
 		</div><!-- #masthead -->
 	</div><!-- #header -->
