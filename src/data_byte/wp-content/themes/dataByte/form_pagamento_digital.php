@@ -85,7 +85,7 @@ $id_pagseguro = get_post_meta($post->ID, 'cp_id_pagamentodigital', true);
 	<script type='text/javascript' >
 	
 		jQuery(document).ready(function(){
-			//jQuery("#the_form").submit();
+			jQuery("#the_form").submit();
 		});
 	
 	</script>

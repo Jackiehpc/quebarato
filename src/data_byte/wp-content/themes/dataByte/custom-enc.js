@@ -26,11 +26,15 @@ jQuery(document).ready(function (){
 	
 	});
 	
-	jQuery("#cat option").each(function(){
+	if(jQuery("#step1")){
+		jQuery("#cat option").each(function(){
 
 		if(jQuery(this).hasClass('level-0')){
 		    jQuery(this).attr('disabled', 'disabled');
+		    jQuery(this).val('');
 		}
 		
-	});
+	});	
+	}
+	
 });
